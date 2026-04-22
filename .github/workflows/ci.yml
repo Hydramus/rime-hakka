@@ -23,7 +23,8 @@ jobs:
           pip install -r build/requirements.txt yamllint
 
       - name: yamllint
-        run: yamllint -d "{extends: default, rules: {line-length: disable, document-start: disable, truthy: disable}}" schemas/ recipe.yaml
+        run: >-
+          yamllint -d '{extends: default, rules: {line-length: disable, document-start: disable, truthy: disable}}' schemas/ recipe.yaml
 
       - name: Fetch upstream sources
         run: python build/fetch_sources.py
