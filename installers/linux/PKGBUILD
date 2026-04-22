@@ -4,10 +4,10 @@ pkgver=0.1.0
 pkgrel=1
 pkgdesc="Rime schema: Hakka Huiyang dialect (Hagfa Pinyim)"
 arch=('any')
-url="https://github.com/<owner>/rime-hakka"
+url="https://github.com/Hydramus/rime-hakka"
 license=('MIT' 'CCPL:by-sa')
 depends=('rime')
-source=("https://github.com/<owner>/rime-hakka/releases/download/v${pkgver}/hakka-huiyang-rime-v${pkgver}.zip")
+source=("https://github.com/Hydramus/rime-hakka/releases/download/v${pkgver}/hakka-huiyang-rime-v${pkgver}.zip")
 sha256sums=('SKIP')
 
 package() {

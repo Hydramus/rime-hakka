@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: rime-hakka contributors <noreply@example.org>
 Build-Depends: debhelper-compat (= 13)
 Standards-Version: 4.6.0
-Homepage: https://github.com/<owner>/rime-hakka
+Homepage: https://github.com/Hydramus/rime-hakka
 
 Package: rime-hakka-huiyang
 Architecture: all
