@@ -2,7 +2,8 @@
 fetch_sources.py — Download upstream source CSVs into sources/.
 
 Currently pulls:
-  - hkilang/TTS chars.csv  →  sources/chars-hkilang.csv  (single-char readings)
+  - hkilang/TTS chars.csv        →  sources/chars-huiyang.csv  (single-char readings)
+  - hkilang/TTS hakka_words.csv  →  sources/words-huiyang.csv  (multi-char vocabulary)
 
 The upstream URL is pinned to `main`. For reproducible builds, set
 --commit <sha> to pin a specific revision.
@@ -19,33 +20,55 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parent.parent
 SOURCES_DIR = REPO_ROOT / "sources"
 
-HKILANG_URL_TEMPLATE = (
+HKILANG_CHARS_URL_TEMPLATE = (
     "https://raw.githubusercontent.com/hkilang/TTS/{ref}/src/res/chars.csv"
+)
+HKILANG_WORDS_URL_TEMPLATE = (
+    "https://raw.githubusercontent.com/hkilang/TTS/{ref}/src/res/hakka_words.csv"
 )
 
 
 def fetch_hkilang(ref: str = "main") -> bytes:
-    url = HKILANG_URL_TEMPLATE.format(ref=ref)
+    url = HKILANG_CHARS_URL_TEMPLATE.format(ref=ref)
     print(f"[info] fetching {url}")
     with urllib.request.urlopen(url, timeout=60) as resp:  # noqa: S310 (static URL)
         return resp.read()
 
 
+def fetch_hkilang_words(ref: str = "main") -> bytes:
+    url = HKILANG_WORDS_URL_TEMPLATE.format(ref=ref)
+    print(f"[info] fetching {url}")
+    with urllib.request.urlopen(url, timeout=60) as resp:  # noqa: S310 (static URL)
+        return resp.read()
+
+
+def extract_words(csv_bytes: bytes) -> list[tuple[str, str]]:
+    """Return (word, pron) pairs from hkilang hakka_words.csv.
+
+    The upstream format is: char,pron  where pron is space-separated Hagfa Pinyim.
+    """
+    rows: list[tuple[str, str]] = []
+    reader = csv.DictReader(io.StringIO(csv_bytes.decode("utf-8")))
+    for row in reader:
+        word = row.get("char", "").strip()
+        pron = row.get("pron", "").strip()
+        if not word or not pron:
+            continue
+        rows.append((word, pron))
+    return rows
+
+
 def extract_huiyang_readings(csv_bytes: bytes) -> list[tuple[str, str]]:
     """Return (char, hagfa_pinyim) pairs from hkilang chars.csv.
 
-    The upstream format is: id,char,other_romanization,hagfa_pinyim,hint.
-    We keep the right-hand Hagfa Pinyim column.
+    The upstream format is: char,waitau,hakka,notes.
+    We keep the hakka (Hagfa Pinyim) column.
     """
     rows: list[tuple[str, str]] = []
-    reader = csv.reader(io.StringIO(csv_bytes.decode("utf-8")))
+    reader = csv.DictReader(io.StringIO(csv_bytes.decode("utf-8")))
     for row in reader:
-        if not row or len(row) < 4:
-            continue
-        if not row[0].strip().isdigit():
-            continue
-        char = row[1].strip()
-        hagfa = row[3].strip()
+        char = row.get("char", "").strip()
+        hagfa = row.get("hakka", "").strip()
         if not char or not hagfa:
             continue
         rows.append((char, hagfa))
@@ -65,23 +88,41 @@ def main(argv: list[str] | None = None) -> int:
     # so write directly to chars-huiyang.csv (what build_dict.py reads).
     out = Path(args.out) if args.out else SOURCES_DIR / "chars-huiyang.csv"
 
+    cache_dir = SOURCES_DIR / ".cache"
+    cache_dir.mkdir(exist_ok=True)
+
     try:
-        raw = fetch_hkilang(args.commit)
+        raw_chars = fetch_hkilang(args.commit)
     except Exception as e:  # noqa: BLE001
-        print(f"[error] fetch failed: {e}", file=sys.stderr)
+        print(f"[error] chars fetch failed: {e}", file=sys.stderr)
         return 1
 
     # Cache the raw upstream file for attribution / diff purposes.
-    (SOURCES_DIR / ".cache").mkdir(exist_ok=True)
-    (SOURCES_DIR / ".cache" / f"hkilang-chars-{args.commit}.csv").write_bytes(raw)
+    (cache_dir / f"hkilang-chars-{args.commit}.csv").write_bytes(raw_chars)
 
-    pairs = extract_huiyang_readings(raw)
+    pairs = extract_huiyang_readings(raw_chars)
     with out.open("w", encoding="utf-8", newline="") as fh:
         writer = csv.writer(fh)
         writer.writerow(["char", "code"])
         writer.writerows(pairs)
-
     print(f"[ok] wrote {len(pairs)} rows to {out.relative_to(REPO_ROOT)}")
+
+    words_out = SOURCES_DIR / "words-huiyang.csv"
+    try:
+        raw_words = fetch_hkilang_words(args.commit)
+    except Exception as e:  # noqa: BLE001
+        print(f"[error] words fetch failed: {e}", file=sys.stderr)
+        return 1
+
+    (cache_dir / f"hkilang-words-{args.commit}.csv").write_bytes(raw_words)
+
+    word_pairs = extract_words(raw_words)
+    with words_out.open("w", encoding="utf-8", newline="") as fh:
+        writer = csv.writer(fh)
+        writer.writerow(["char", "pron"])
+        writer.writerows(word_pairs)
+    print(f"[ok] wrote {len(word_pairs)} rows to {words_out.relative_to(REPO_ROOT)}")
+
     return 0
 
 
