@@ -1,0 +1,19 @@
+Dictionary data in this repository is licensed under the
+Creative Commons Attribution-ShareAlike 4.0 International License (CC-BY-SA 4.0).
+
+Full legal text: https://creativecommons.org/licenses/by-sa/4.0/legalcode
+
+This applies to:
+  - schemas/**/*.dict.yaml
+  - sources/*.csv
+  - sources/phrases/**
+
+Attribution:
+  - Single-character readings derived from hkilang/TTS chars.csv
+    (https://github.com/hkilang/TTS) — CC-BY-SA compatible.
+  - Phrase-level entries derived from the Hakka-flashcards-site vocabulary
+    compilation.
+
+If you redistribute or remix the dictionary data, you must:
+  1. Give appropriate credit to the upstream sources listed above,
+  2. License your derivative work under CC-BY-SA 4.0 or a compatible license.

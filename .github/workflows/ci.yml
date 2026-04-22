@@ -1,0 +1,47 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r build/requirements.txt yamllint
+
+      - name: yamllint
+        run: yamllint -d "{extends: default, rules: {line-length: disable, document-start: disable, truthy: disable}}" schemas/ recipe.yaml
+
+      - name: Fetch upstream sources
+        run: python build/fetch_sources.py
+
+      - name: Build Huiyang dictionary
+        run: python build/build_dict.py huiyang
+
+      - name: Validate Huiyang schema
+        run: python build/validate_schema.py schemas/huiyang
+
+      - name: Run unit tests
+        run: pytest -q tests/test_build_pipeline.py
+
+      - name: Package release zip (dry-run artifact)
+        run: python build/package.py huiyang
+
+      - name: Upload build artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: hakka-huiyang-rime
+          path: dist/*.zip

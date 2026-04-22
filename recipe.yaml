@@ -1,0 +1,12 @@
+# plum recipe for rime-hakka
+# https://github.com/rime/plum
+#
+# This makes the following work on any plum-enabled Rime install:
+#   bash rime-install <user>/rime-hakka
+#
+# plum will copy schemas/**/*.schema.yaml and schemas/**/*.dict.yaml into
+# the user's Rime data directory, then ask the deployer to rebuild.
+
+# Schemas to install when users pull this recipe.
+schemas:
+  - schema: hakka_huiyang

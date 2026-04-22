@@ -1,0 +1,78 @@
+# Rime schema: {{DIALECT_NAME}}
+# SPDX-License-Identifier: CC-BY-SA-4.0 (dictionary) / MIT (scaffolding)
+
+schema:
+  schema_id: hakka_{{DIALECT_SLUG}}
+  name: {{DIALECT_NAME}}
+  version: "0.1.0"
+  author:
+    - rime-hakka contributors
+  description: |
+    Hakka input method for the {{DIALECT_NAME}} dialect.
+    Toneless input is the default; tone digits 1–6 are optional.
+  dependencies: []
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, 英文 ]
+  - name: full_shape
+    states: [ 半角, 全角 ]
+  - name: simplification
+    reset: 0
+    states: [ 漢字, 汉字 ]
+  - name: ascii_punct
+    states: [ 。，, ．， ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - script_translator
+  filters:
+    - simplifier
+    - uniquifier
+
+speller:
+  alphabet: "zyxwvutsrqponmlkjihgfedcba123456"
+  delimiter: " '"
+  algebra:
+    - derive/([1-6])//
+    - abbrev/^([a-z]).+$/$1/
+    - abbrev/^([a-z][a-z]).+$/$1/
+
+translator:
+  dictionary: hakka_{{DIALECT_SLUG}}
+  prism: hakka_{{DIALECT_SLUG}}
+  spelling_hints: 8
+  initial_quality: 1.1
+
+simplifier:
+  option_name: simplification
+  opencc_config: t2s.json
+
+punctuator:
+  import_preset: default
+
+key_binder:
+  import_preset: default
+
+recognizer:
+  import_preset: default
+  patterns:
+    email: "^[A-Za-z][-_.0-9A-Za-z]*@.*$"
+    uppercase: "[A-Z][-_+.'0-9A-Za-z]*$"

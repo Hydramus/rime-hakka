@@ -1,0 +1,2191 @@
+# Rime dictionary — GENERATED FILE. Do not edit by hand.
+# Regenerate via: python build/build_dict.py huiyang
+# SPDX-License-Identifier: CC-BY-SA-4.0
+# encoding: utf-8
+
+---
+name: hakka_huiyang
+version: "0.1.0"
+sort: by_weight
+use_preset_vocabulary: false
+...
+
+???	yen2	500
+㧡	kai1	500
+㩳	tui1	500
+㿸	man4	500
+䁓	zong1	500
+一	yit5	500
+一下	yit5 ha4	500
+一下子	yit5 ha4 zu3	500
+一世	yit5 se4	500
+一億	yit5 yi4	500
+一兆	yit5 cau4	500
+一千	yit5 cien1	500
+一千億	yit5 cien1 yi4	500
+一千萬	yit5 cien1 man4	500
+一樣長嘅索嫲	yit5 yong4 cong2 ge4 sot5 ma2	500
+一滴仔	yit5 dit6 zai3	500
+一百一十一	yit5 bak5 yit5 sip6 yit5	500
+一百億	yit5 bak5 yi4	500
+一百萬	yit5 bak5 man4	500
+一直	yit6 cit6	500
+一萬	yit5 man4	500
+一陣間	yit5 cin4 gan1	500
+一點鐘	yit5 diam3 zung1	500
+丁	din1	500
+七	cit5	500
+七十	cit5 sip6	500
+七點搭五	cit5 diam3 dap5 ng3	500
+丈人佬	cong1 ngin1 lau3	500
+丈人婆	cong1 ngin1 po2	500
+三	sam1	500
+三十	sam1 sip6	500
+三十三	sam1 sip6 sam1	500
+三四隻人	sam1 si4 zak5 ngin2	500
+三百	sam1 bak5	500
+三輪車	san1 lin2 ca1	500
+三點鐘	sam1 diam3 zung1	500
+上下	song4 ha4	500
+上來	song1 loi2	500
+上晝	song4 ziu4	500
+上樑	song3 liong2	500
+上菜	song1 coi4	500
+上高	song4 gau1	500
+下去	ha1 hi4	500
+下晝	ha1 ziu4	500
+下水	ha4 sui3	500
+下流	ha4 liu2	500
+下背	ha1 boi4	500
+不留	but5 liu4	500
+且姆	cia1 me1	500
+丫叉	a1 ca1	500
+丫叉仔	a1 ca1 zai3	500
+中意	zung1 yi4	500
+中藥	zung1 yok6	500
+中間	zung1 gan1	500
+丸仔	yen2 zai3	500
+主固	zu3 gu4	500
+乜介	mak5 gai4	500
+九	giu3	500
+九十	giu3 sip6	500
+乾塘	gon1 tong2	500
+乾杯	gon1 bui1	500
+乾脆	gon1 cui4	500
+乾蜱	gon1 bi1	500
+亂	lon4	500
+亂嗑	lon4 kap5	500
+二	ngi4	500
+二十	ngi4 sip6	500
+二十一	ngi4 sip6 yit5	500
+二十三	ngi4 sip6 sam1	500
+二十二	ngi4 sip6 ngi4	500
+二千	ngi4 cien1	500
+二百	ngi4 bak5	500
+五	ng3	500
+五十	ng3 sip6	500
+五月節	ng1 ngiet6 ziet5	500
+井	ziang3	500
+亢身	hong4 sin1	500
+交	gau4	500
+交椅	gau4 yi3	500
+人人	ngin2 ngin2	500
+人力車	ngin2 lit6 ca1	500
+人客	ngin2 hak5	500
+人家	ngin2 ga1	500
+仂卒卒	lep5 zut5 zut5	500
+今下	gin1 ha4	500
+今下	gin1 la4	500
+今年	gim1 ngien2	500
+今日	gim1 ngit5	500
+他人	ta1 ngin2	500
+仰	ngong1	500
+件	kien3	500
+件	kien4	500
+伏	pu4	500
+伙記	fo2 gi4	500
+伙頭	fo3 teu2	500
+估	gu3	500
+伶俐	lang2 li4	500
+作嘔	zok5 eu1	500
+作河壆	zok5 ho2 bok5	500
+作陂頭	zok5 bi1 teu2	500
+你	ngi2	500
+你先行走	ngi2 sien1 hang2 zeu3	500
+你兜	ngia1 deu1	500
+你兜嘅	ngia1 deu1 ge4	500
+佢	gi2	500
+佢來唔來倒	gi2 loi2 m1 loi2 dau3	500
+佢兜	gia1 deu1	500
+佢兜嘅	gia1 deu1 ge4	500
+佢嘅	gia1 ge4	500
+佮	gap5	500
+佮人	gap5 ngin2	500
+佮份	gap5 fun4	500
+侄仔	cit5 zu3	500
+侄女	cit5 ngi3	500
+來去看電影咯	loi2 hi4 kon4 tien4 yang3 lo3	500
+來嗨哋	loi2 hoi1 di1	500
+侍頭	si4 teu2	500
+侍頭婆	si4 teu2 po2	500
+供嬭	giung4 len4	500
+信	sin4	500
+信筒	sin4 tung2	500
+信肉	sim4 ngiuk5	500
+倒酒	dau3 ziu3	500
+偏偏	bien1 bien1	500
+偏廳	pien1 tiang1	500
+做乜介	zo4 mak5 gai4	500
+做事	zo4 se4	500
+做媒人	zo4 moi2 ngin2	500
+做工	zo4 gung1	500
+做得	zo4 det5	500
+做月	zo4 ngiet6	500
+做東西	zo4 dung1 si1	500
+做白事	zo4 pak6 su4	500
+做秋嗨	zo4 ciu1 hoi1	500
+做酒	zo4 ziu3	500
+側	zet5	500
+側邊	zet5 bien1	500
+側門	zet5 mun2	500
+側頭仔	zet5 teu2 zai3	500
+偷懶	teu1 lan1	500
+傍	bong3	500
+傢俬	ga1 su1	500
+傢生	ga1 sang1	500
+傷心	song1 sim1	500
+傷風	song1 fung1	500
+傻佬	so2 lau3	500
+僬仔	ziau2 zai3	500
+兄弟	hiung1 ti4	500
+充好漢	cung1 hau3 hon4	500
+光	gong1	500
+光華華	gong1 va2 va2	500
+光頭	gong1 teu2	500
+兔仔	tu4 zai3	500
+兜尿	deu1 ngiau4	500
+入	ngip6	500
+入殮	ngip6 liam1	500
+兩兄弟	liong3 hiung1 ti4	500
+兩兩	liong3 liong1	500
+兩公婆	liong3 gung1 po2	500
+兩姊妹	liong3 zi3 moi4	500
+兩子爺	liong3 zu3 ya2	500
+兩尺	liong3 cak5	500
+兩斤	liong3 gin1	500
+兩斤二兩	liong3 gin1 ngi4 liong1	500
+兩斤兩兩	liong3 gin1 liong3 liong1	500
+兩百五	liong3 bak5 ng1	500
+兩隻一樣高	liong3 zak5 yit5 yong4 gau1	500
+兩點鐘	liong3 diam3 zung1	500
+八	bat5	500
+八十	bat5 sip6	500
+八月十五	bat5 ngiet6 sip6 ng3	500
+八月半	bat5 ngiet6 ban4	500
+公太	gung1 tai4	500
+六	luk5	500
+六	luk6	500
+六十	luk5 sip6	500
+六指	luk5 zi3	500
+其	gia1	500
+其兜自家	gia1 diu1 ci2 ga1	500
+其自家	gia1 ci2 ga1	500
+冇	mau2	500
+冇爺冇娭	mau2 ya2 mau2 oi1	500
+冇閒	mau2 han2	500
+再娶	cai4 ci3	500
+冚	kiem2	500
+冤枉	yen1 vong3	500
+冬瓜	dung1 ga1	500
+冰	ben1	500
+冷	lang1	500
+冷倒	lang1 dau3	500
+冷挖挖	lang1 vat5 vat5	500
+冷死咯	lang1 si3 lo3	500
+冷死嗨	lang1 si3 hoi1	500
+冷水	lang1 sui3	500
+冷線	lang1 sien1	500
+冷蜞	lang1 ki2	500
+冷衫	lang1 sam1	500
+凈愛一滴仔	ciang4 oi4 yit5 dit6 zai3	500
+凳	den4	500
+凵	kiem3	500
+凸	tut6	500
+凹	ngiap5	500
+出力	cut5 lit6	500
+出唔到來	cut5 m1 dau3 loi2	500
+出嗨年	cut5 hoi1 ngien2	500
+出墟	cut5 hi1	500
+出麻仔	cut5 ma2 zai3	500
+刀仔	dau1 zai3	500
+刀嫲	dau2 ma2	500
+刀豆	dau1 teu4	500
+分	bin1	500
+分	fun1	500
+分	fun4	500
+分人打	bin1 ngin2 da3	500
+分佢估中嗨	bin1 gi2 gu3 zung4 hoi1	500
+分佢食先	bin1 gi2 sit6 sien1	500
+分厓看下	bin1 ngai2 kon4 ha4	500
+分多滴厓得唔得	bin1 do1 dit6 ngai2 det5 m1 det5	500
+分本書佢	bin1 bun3 su1 gi1	500
+分鐘	fun1 zung1	500
+別人	pet6 ngin2	500
+刨仔	pau2 zai3	500
+刨茸	pau2 yung2	500
+利	li4	500
+刮	gat5	500
+到	dau4	500
+刺	yap5	500
+刻	kat6	500
+刻簿	ket5 pok6	500
+剁柴	dok6 cai2	500
+剃	tai4	500
+剃頭	tai4 teu2	500
+剃頭佬	tai4 teu2 lau3	500
+削	siok5	500
+前世	cien2 se4	500
+前年	cien2 ngien2	500
+前日	cien2 ngit5	500
+剪	zien3	500
+剪刀	zien3 dau1	500
+剪布	zien3 bu4	500
+割禾	got5 vo2	500
+劏豬	tong1 zu1	500
+劏雞	tong1 gai1	500
+劏魚	tong1 ng2	500
+加先	ga1 sien1	500
+勤力	kin2 lit6	500
+勸	kien4	500
+勺嫲	sok6 ma2	500
+勾腳	giu1 giok5	500
+包仔	bau1 zai3	500
+包尾	bau1 mui1	500
+包粟	bau1 suk5	500
+十	sip6	500
+十一	sip6 yit5	500
+十七	sip6 cit5	500
+十三	sip6 sam1	500
+十九	sip6 giu3	500
+十二	sip6 ngi4	500
+十五	sip6 ng3	500
+十億	sip6 yi4	500
+十八	sip6 bat5	500
+十六	sip6 luk5	500
+十四	sip6 si4	500
+十萬	sip6 man4	500
+十零隻	sip6 lang2 zak5	500
+千重皮	cien1 cung2 pi2	500
+半山	ban4 san1	500
+卒	zut5	500
+印仔	yin4 zai3	500
+卵	lin3	500
+卵屎	lin3 si3	500
+厓	ngai2	500
+厓哋	ngai2 di1	500
+厓哋嘅	ngai2 di1 ge4	500
+厓大佢一歲	ngai2 tai4 gi2 yit5 soi4	500
+厓大唔過佢	ngai2 tai4 m1 go4 gi2	500
+厓大過佢	ngai1 tai4 go4 gi2	500
+厓講過分佢知	ngai2 gong3 go4 bin1 gi2 di1	500
+厘秤	li2 cin4	500
+去	hi4	500
+去嗨	hi4 hoi1	500
+去學堂	hi4 hok6 tong2	500
+去看電影去嗨	hi4 kon4 tien4 yang3 hi4 hoi1	500
+厾	duk5	500
+叔仔	suk5 zai3	500
+叔伯兄弟	suk5 bak5 hiung1 ti4	500
+叔姆	suk5 me1	500
+口	heu3	500
+口水	heu3 sui3	500
+口水枷	heu3 sui3 ga1	500
+只有	zik5 yiu1	500
+只要	zik5 yau4	500
+叫	giau4	500
+叫包	giau4 bau2	500
+可憐	ko3 lien2	500
+右手	yiu4 siu3	500
+右手析	yiu4 siu3 bien1	500
+司機	su1 gi1	500
+叻	liak6	500
+叼	diau1	500
+叼死咯	diu1 si3 lo3	500
+叾	duk5	500
+吃吃震	git6 git6 zun1	500
+各人	gok5 ngin2	500
+合桃	hap6 tau2	500
+吊桶	diau4 tung3	500
+吊頸	diau4 giang3	500
+吐	tu4	500
+向	hiong4	500
+向日葵	hiong4 ngit5 kui2	500
+吔螺蟲	ye2 lo2 cung2	500
+吖	ap6	500
+吞	tun1	500
+吠	poi4	500
+吥	but5	500
+吥芽	but6 nga2	500
+吩咐	fun1 fu4	500
+含	ham2	500
+吵交	cau2 gau1	500
+吸	kip5	500
+吹笛	cui1 tiak6	500
+吾	nga1	500
+吾兜	nga1 deu1	500
+吾兜嘅	nga1 deu1 ge4	500
+吾兜自家	nga1 diu1 ci2 ga1	500
+吾嘅	nga1 ge4	500
+吾自家	nga1 ci2 ga1	500
+味	mui4	500
+咬	ngau1	500
+哪人	la4 ngin2	500
+哪人嘅	la4 ngin2 ge4	500
+哪兜	lai4 deu1	500
+哪定	lai4 dang4	500
+哪定	lai4 tang4	500
+哪裏	lai4 li1	500
+哪邊	lai4 bien1	500
+哪陣	lai4 cin4	500
+哪隻	lai4 zak5	500
+唄	bia3	500
+唆	so2	500
+唔	m1	500
+唔使	m1 su3	500
+唔係	m1 he4	500
+唔准	m1 zun3	500
+唔分佢去，佢係愛去,	m1 bin1 gi2 hi4 gi1 he4 oi4 hi4	500
+唔在行	m1 cai4 hong2	500
+唔夠秤	m1 geu4 cin4	500
+唔好	m1 hau3	500
+唔好打爛吾嘅碗	m1 hau3 da3 lan4 nga2 ge4 von3	500
+唔好插嘴，分佢講落去	m1 hau3 cap5 zui3 bin1 gi2 gong3 lok6 hi4	500
+唔得閒	m1 det5 han2	500
+唔愛面	m1 oi4 mien4	500
+唔捨得	m1 sa3 det5	500
+唔消化	m1 siau1 fa4	500
+唔聲	m1 sang1	500
+唔著數	m1 cok6 su4	500
+唔見嗨	m1 gien4 hoi1	500
+唔錯	m1 co4	500
+唔食得酒	m1 sit6 det5 ziu3	500
+唱惹	cong4 ya1	500
+唱歌	cong4 go1	500
+啄	duk5	500
+啄目睡	duk5 muk5 soi4	500
+啖	tam4	500
+啜	zot6	500
+啞	a3	500
+啞佬	a3 lau3	500
+啪扭	bak6 leu3	500
+啱線	ngam1 sien4	500
+啼	tai2	500
+喉連	heu2 lien2	500
+喊	hiem1	500
+喊同年	ham4 tung2 ngien2	500
+喊唔動佢	ham4 m1 dung1 gi2	500
+喝	hot5	500
+單眼	dan1 ngan3	500
+單身哥	dan1 sin1 go1	500
+單車	dan1 ca1	500
+嗻	zak5	500
+嘔	eu3	500
+嘗	song2	500
+嘟	lu3	500
+嘴唇	zoi4 sun2	500
+嘴角	zoi3 gok5	500
+噴	pun4	500
+噴香	pun4 hiong1	500
+噹	diong1	500
+嚼	ciau4	500
+囁	ngiap5	500
+囉嗦	lo4 so4	500
+四	si4	500
+四十	si4 sip6	500
+回南	fui2 lam2	500
+圍裙	vui2 sin1	500
+圓	yen2	500
+團	ton2	500
+在	coi1	500
+在行	cai4 hong2	500
+地豆	ti4 teu4	500
+地豆米	ti4 teu4 mi3	500
+圳	zun4	500
+坐唔得久	co1 m1 det5 giu3	500
+坐多陣正	co1 do1 cin4 zang4	500
+坐多陣添	co1 do1 cin4 tiam1	500
+坐席	co1 cit6	500
+坐等來食	co1 den3 loi2 sit6	500
+坑瀝	hang1 lak5	500
+坪	piang2	500
+坼	cak5	500
+垃圾	lot5 sot5	500
+垠	hien1	500
+埂	yin4	500
+埋	mai2	500
+城市人	sang2 si4 ngin2	500
+埕	cin2	500
+執	zep5	500
+堆	doi1	500
+塊	kai4	500
+塗	tu2	500
+塘	tong2	500
+墊	siap5	500
+墜	diet5	500
+墜低頭	cui4 dai1 teu2	500
+墨	met6	500
+墨水	met5 sui3	500
+墨汁	met6 zip5	500
+墨湖	met6 fu2	500
+墩頭	dun1 teu2	500
+墳頭	fun2 teu2	500
+墻	siong2	500
+壁蛇	biak5 sa2	500
+壁頭	biak5 teu2	500
+壅	vung1	500
+壢	lak6	500
+外孫	ngoi4 sun1	500
+外孫女	ngoi4 sun1 ng3	500
+外甥	ngoi2 sang1	500
+外甥女	ngoi2 sang1 ng3	500
+多謝	do1 cia4	500
+夜	ya4	500
+夜晚辰	ya4 man1 sin2	500
+夠秤	geu4 cin4	500
+大	tai4	500
+大伯爺	tai4 bak5 ya2	500
+大前年	tai4 cien2 ngien2	500
+大前日	tai4 cien2 ngit5	500
+大姑	dai4 gu1	500
+大姑【長】	tai4 gu1	500
+大姨	tai4 yi2	500
+大姨【長】	tai4 yi2	500
+大家	tai4 ga1	500
+大後年	tai4 heu4 ngien2	500
+大後日	tai4 heu4 ngit5	500
+大方	tai4 fong1	500
+大核卵	tai4 hak6 lon3	500
+大牙	tai4 nga2	500
+大紙	tai4 zi3	500
+大肚婆	tai4 du3 po2	500
+大肚胈	tai4 du3 pat6	500
+大舅	tai4 kiu1	500
+大舅【長】	tai4 kiu1	500
+大舅娘【長】	tai4 kiu1 ngiong2	500
+大舌頭	tai4 set6 teu2	500
+大莫約	tai4 mok5 yok5	500
+大褸	tai4 leu1	500
+大髀	tai4 bi3	500
+大齊家	tai4 ci2 ga1	500
+天井	tien1 ziang3	500
+天光	tien1 gong1	500
+天弓	tien1 giung1	500
+天旱	tien1 hon1	500
+天時	tien1 si2	500
+天棚	tien1 pang2	500
+天河	tien1 ho2	500
+天瀉屎	tien1 sia4 si3	500
+天狗食日	tien1 geu3 sit6 ngit5	500
+天狗食月	tien1 geu3 sit6 ngiet6	500
+失枕	sip5 zim3	500
+夾	kiap6	500
+夾菜	gap5 coi4	500
+契媽	ke4 ma2	500
+契家佬	ke4 ga1 lau3	500
+契家婆	ke4 ga1 po2	500
+契爺	ke4 ya2	500
+奸	gan1	500
+好	hau3	500
+好亂	hau3 lon4	500
+好像	hau3 ciong4	500
+好光滑	hau3 gong1 vat6	500
+好冷	hau3 lang1	500
+好天	hau3 tien1	500
+好幼	hau3 yiu4	500
+好彩	hau3 coi3	500
+好心	hau3 sim1	500
+好快	hau3 kai4	500
+好滑	hau3 vat6	500
+好濕	hau3 sip5	500
+好烏	hau3 vu1	500
+好燒	hau3 sau1	500
+好燥	hau3 zau1	500
+好硬	hau3 ngang4	500
+好笨	hau3 pun1	500
+好粗	hau3 cu1	500
+好臭垠	hau3 ciu4 hien1	500
+好苦	hau3 fu3	500
+好軟	hau3 ngion1	500
+好輕	hau3 kiang1	500
+好酸	hau3 son1	500
+好重	hau3 cung1	500
+好青	hau3 ciang1	500
+好黃	hau3 vong2	500
+妹仔	moi4 zai3	500
+妹子	moi4 zu1	500
+妹家	moi4 ga1	500
+姊妹	zi3 moi4	500
+姐公	zia3 gung1	500
+姐夫	zia3 fu1	500
+姐婆	zia3 po2	500
+姑丈	gu1 cong1	500
+姑仔【幼】	gu1 zai3	500
+姑爺	gu1 ya2	500
+姨丈	yi2 cong1	500
+姨仔	yi2 zai3	500
+姨仔【幼】	yi2 zai3	500
+威風	vui1 fung1	500
+娶心臼	ci3 sim1 kiu1	500
+娶老婆	ci3 lau3 po2	500
+婆太	po2 tai4	500
+婦娘	bu1 ngiong2	500
+婿郎	se4 long2	500
+媒人婆	moi2 ngin2 po2	500
+嫁老公	ga4 lau3 gung1	500
+嫌	hiam2	500
+嫩	lun4	500
+嫩術術	lun4 sut6 sut6	500
+嬭嘴	len4 zui3	500
+嬭姑	len4 gu1	500
+嬭水	len4 sui3	500
+嬭頭	len4 teu2	500
+子女	zu3 ng3	500
+子嫂	zu3 sau3	500
+孖仔	ma1 zai3	500
+字輩	su4 bui4	500
+存	sun2	500
+孤兒	gu1 yi2	500
+孫仔	sun1 zai3	500
+孫女	sun1 ng3	500
+孭	ba2	500
+學堂	hok6 tong2	500
+學生	hok5 sang1	500
+守寡婆	siu3 ga3 po2	500
+宕	tong4	500
+定婚	tin4 fun1	500
+客	hak5	500
+客棧	hak5 can4	500
+客氣	hak5 hi4	500
+客車	m1 bin1 gi2 hi4 gi1 he4 oi4 hi4	500
+宵夜	siau1 ya4	500
+家	ga1	500
+家娘	ga1 ngiong2	500
+家官	ga1 gon1	500
+容易	yung2 yi4	500
+密	mit6	500
+密襠褲	mit6 long4 fu4	500
+寫過	sia3 go4	500
+射	sa4	500
+射眼	sa4 ngan3	500
+將	ziong1	500
+將火燒起來正	ziong1 fo3 sau1 hi3 loi2 zang4	500
+將該飯食秋佢	ziong1 ai4 fan4 sit6 ciu1 gi2	500
+專門	zon1 mun2	500
+尋	cim2	500
+尋交轉	cim2 gau3 con3	500
+對	dui4	500
+對眼	dui4 ngan3	500
+對面	dui4 min4	500
+小口	siau3 heu3	500
+小心	siau3 sim1	500
+小相	siau3 siong4	500
+小販	siau3 fan4	500
+就	ciu4	500
+就七點搭五	ciu4 cit5 diam3 dap5 ng3	500
+就亼	ciu4 zip6	500
+就係	ciu4 he4	500
+就到	ciu4 dau4	500
+尺	cak5	500
+尾	mui1	500
+尿桶	ngiau4 tung3	500
+尿片	ngiau4 pien4	500
+尿角	ngiau4 gok5	500
+屋	vuk5	500
+屋下	vuk5 ka1	500
+屋簷	vuk5 yam2	500
+屌	diau3	500
+屎坑	si3 hang1	500
+屎窟臀	si3 fut5 tun2	500
+屎窟門	si3 fut5 mun2	500
+屏	biang4	500
+屏人子	biang4 ngin2 zu1	500
+屐	kiak6	500
+屙尿	o1 ngiau4	500
+屙屎	o1 si3	500
+屙屎唔出	o1 si3 m1 cut5	500
+層	cen4	500
+山崖	san1 ngai2	500
+山渣	san1 za1	500
+山窩	san1 vo1	500
+山腳下	san1 giok5 ha1	500
+崎	ki1	500
+崩崗	ben1 gong1	500
+嶺崗	liang1 gong1	500
+嶺背後	liang1 boi4 heu1	500
+嶺腳下	liang3 giok5 ha1	500
+嶺頂	liang1 dang3	500
+左手	zo3 siu3	500
+左手仔	zo3 siu3 zai3	500
+左手析	zo3 siu3 bien1	500
+差	ca1	500
+巷	hong4	500
+帆船	fan2 son2	500
+師傅	su4 fu4	500
+帽仔	mau4 zai3	500
+幫	bong1	500
+幫等	bong1 den3	500
+平	piang2	500
+平地	piang2 ti4	500
+年三十晚	ngien2 sam1 sip6 man1	500
+幼	yiu4	500
+幾	git5	500
+幾久	git5 giu3	500
+幾多斤	git5 do1 gin1	500
+幾時	git5 si2	500
+幾氣	git3 hi4	500
+庀	pi3	500
+底衫	dai3 sam1	500
+座位	co4 vui4	500
+廁所	ci4 so3	500
+廚房	cu2 fong2	500
+廿二	ngip6 ngi4	500
+張	cong1	500
+強	kiong1	500
+彎彎嘅牛角	van1 van1 ge4 ngiu2 gok5	500
+影	yang3	500
+影	yang4	500
+影畫戲	yang3 fa4 hi4	500
+後娭	heu4 oi1	500
+後年	heu4 ngien2	500
+後日	heu4 ngit5	500
+後生	heu4 sang1	500
+後生仔	heu4 sang1 zai3	500
+徑	gang4	500
+徒弟	tu2 ti4	500
+得人惜	det5 ngin2 siak5	500
+得人惱	det5 ngin2 lau1	500
+得閒	det5 han2	500
+徛	ki1	500
+徛堂	ki1 tong2	500
+徛等唔好動	gi1 den3 m1 hau3 tung1	500
+從細	cung2 se4	500
+心肝頭	sim1 gon1 teu2	500
+心臼	sim1 kiu1	500
+忒過	tet5 go4	500
+快	kai1	500
+快	kai4	500
+快滴	kai4 dit6	500
+怨	yen4	500
+恁	an2	500
+恁	an4	500
+恁樣做	an2 yong4 zo4	500
+恁樣做	an4 yong4 zo4	500
+恒	hen2	500
+恤衫	sut6 sam1	500
+息子	sit5 zu3	500
+惜	siak5	500
+惱	lau1	500
+想起	siong3 hi3	500
+惶	kong2	500
+惶到	fong2 dau4	500
+愁	seu2	500
+愛	oi4	500
+慢	man4	500
+慢吞吞	man4 tun1 tun1	500
+慢慢行	man4 man4 hang2	500
+慳	han1	500
+慳儉	han1 kiam4	500
+憑	pen4	500
+懵佬	mung3 lau3	500
+懶	lan1	500
+成日	sang2 ngit5	500
+成隻	sin2 zak5	500
+或者	fet6 za3	500
+戽	fu4	500
+戽水	fu4 sui3	500
+扁	bien3	500
+扇	sien4	500
+手	siu3	500
+手巴掌	siu3 ba1 zong3	500
+手巾	siu3 gin1	500
+手巾仔	siu3 gin1 zai3	500
+手巾絮	siu3 gin1 sui1	500
+手指仔	siu3 zi3 zai3	500
+手指公	siu3 zi3 gung1	500
+手指甲	siu3 zi3 gap5	500
+手臂	siu3 bi3	500
+手襪	siu3 mat5	500
+手踭	siu3 zang1	500
+扒	pa2	500
+打交	da3 gau1	500
+打佢唔嬴	da3 gi2 m1 yang2	500
+打側睡	da3 zet5 soi4	500
+打呃督	da3 et6 duk6	500
+打哈嗤	da3 at6 ci4	500
+打屁	da3 pi4	500
+打得佢贏	da3 det5 gi2 yang2	500
+打快扒	da3 kai4 pa2	500
+打扽坐	da3 dun4 co1	500
+打斗	da3 deu3	500
+打樁	da3 zong1	500
+打水片	da3 sui3 pien3	500
+打灶頭	da3 zau4 teu2	500
+打爆仗	da3 bau4 cong4	500
+打符繡	da3 fu2 siu4	500
+打米	da3 mi3	500
+打翻車	da3 fan2 ca1	500
+打胲約	da3 goi1 yok5	500
+打脈	da3 mak5	500
+打脧鳥	da3 zoi1 diau1	500
+打赤膊	da3 cak5 bok5	500
+打踏	da3 tap6	500
+打鐵佬	da3 tiet5 lau3	500
+打陣冥	da3 cin3 min3	500
+打露水	da3 lu4 sui3	500
+打韆鞦	da3 cin1 ciu1	500
+打風差	da3 fung1 cai1	500
+托	tok5	500
+扡	ya3	500
+扣	keu4	500
+扭	ngiu3	500
+扭	ngiu4	500
+扭恒該蓋佢	ngiu3 hen2 ai4 goi4 gi2	500
+扭轉	ngiu4 zon3	500
+扯	ca3	500
+扯秧	ca3 yong1	500
+扯鼻鼾	ca3 pi4 hon2	500
+扲	lem2	500
+找	zau3	500
+抄	cau4	500
+把	ba3	500
+抌	dem3	500
+投墟	teu2 hi1	500
+投河	teu2 ho2	500
+抬	toi2	500
+抵	dai3	500
+抹	mat5	500
+抹身	mat5 sin1	500
+抽	ciu1	500
+抽筋	ciu4 gin1	500
+拂	fit5	500
+拂	fit6	500
+拆交	cak5 gau1	500
+拈	ngiam3	500
+拈鬮	ngiam1 kiu1	500
+拉	lai1	500
+拉二弦	lai1 ngi4 hien2	500
+拉倒	lai3 dau3	500
+拋	pau1	500
+拌	pan1	500
+拌桶	pan1 tung3	500
+拌禾	pan1 vo2	500
+拍	pak5	500
+拍	pok5	500
+拐掍	gai3 gun4	500
+拖箱	to1 siong1	500
+拖鞋	to1 hai3	500
+拗	au3	500
+招呼	zau1 fu1	500
+招郎入舍	zau1 long2 ngip5 sa4	500
+拜	bai4	500
+拳頭牯	kien2 teu2 gu3	500
+拼	pin1	500
+拿	la1	500
+拿得動	la1 det5 tung1	500
+拿得起還係拿唔起	la1 det5 hi3 han2 he4 la1 m1 hi3	500
+拿暖水	la2 lon1 sui3	500
+挑	tiau1	500
+挑地腳	tiau1 ti4 giok5	500
+挖	vet5	500
+振耳	zin3 ngi3	500
+挺挺仰睡	ten3 ten3 ngong1 soi4	500
+捉	zuk5	500
+捉棋	zok5 ki2	500
+捉魚	zuk5 ng2	500
+捋	lot6	500
+捧	bung3	500
+捧大腳	bung3 tai4 giok5	500
+捨得	sa3 det5	500
+捻	liem1	500
+捼	lo2	500
+捽	zut6	500
+掃把	sau4 ba3	500
+掃把星	sau4 ba3 sin1	500
+掃杆	sau4 gon3	500
+掇	dot5	500
+掌	zong3	500
+掌屋	zong3 vuk5	500
+掌牛	zong3 ngiu2	500
+掖	yap6	500
+掛山	ga4 san1	500
+掟	dang1	500
+探	tam1	500
+探	tam4	500
+接生	ziap5 sang1	500
+接禮	ziap5 li1	500
+掹	bang1	500
+揀	gan3	500
+揈	vin4	500
+插嘴	cap5 zoi4	500
+揞	em1	500
+揸車	za1 ca1	500
+損身	sun3 sin1	500
+搏命	bok5 miang4	500
+搖	yau2	500
+搞	gau3	500
+搞掂	gau3 tiam4	500
+搬	ban1	500
+搬	pan1	500
+搭	dap5	500
+搭人世	dap5 ngin2 se4	500
+搭嘴	dap5 zoi4	500
+搭客	dap5 hak5	500
+搭車	dap5 ca1	500
+摘	zak5	500
+摟	leu1	500
+摸	mo1	500
+摸牌	mo1 pai2	500
+撈	lak5	500
+撈	lau1	500
+撈箕	lau2 gi1	500
+撈過	leu2 go4	500
+撏	ciam2	500
+撕	su1	500
+撚	ngien3	500
+撩	liau1	500
+撩	liau2	500
+撩	tiau1	500
+撮	cot5	500
+撮仔	cot5 zai3	500
+撮唔倒厓	cot5 m1 dau3 ngai2	500
+撮把戲	cot5 ba3 hi4	500
+撳	kim4	500
+撳釘	kim4 dang1	500
+撿	giam3	500
+撿瓦背	giam3 nga3 boi4	500
+撿藥	giam3 yok6	500
+擂搥	lui2 cui2	500
+擇	tok6	500
+擋	dong3	500
+擎	kia2	500
+擔竿	dam4 gon1	500
+擔起	dam1 hi3	500
+擘	mak5	500
+擘囉	mak5 lo4	500
+擤鼻膿	sen4 pi4 lung2	500
+擦	cat5	500
+擦紙膠	cat5 zi3 gau1	500
+擯屎	bin3 si3	500
+擺檔	bai3 dong4	500
+擺酒	bai3 ziu3	500
+擺面子	bai3 mien4 zu3	500
+攔	lan2	500
+攝	ngiap5	500
+攝	ngiap6	500
+攝下眼	ngiap5 ha4 ngan3	500
+攞食佬	lo3 sit5 lau3	500
+攤	tang1	500
+攪	gau3	500
+攬	lam3	500
+支屄	zi1 biet5	500
+攰	kioi4	500
+攰死咯	kioi4 si3 lo3	500
+攰死嗨	kioi4 si3 hoi1	500
+收工	siu1 gung1	500
+放	fong4	500
+放學	fong4 hok6	500
+放紙鷂	fong4 zi3 yau4	500
+教書先生	gau1 su1 sin1 sang1	500
+散紙	san3 zi3	500
+敥	yam4	500
+敨	teu3	500
+敨唔倒氣	teu3 m1 dau3 hi4	500
+敨涼	teu3 liong2	500
+整	zin3	500
+整過七點搭五	zang4 go4 cit5 diam3 dap5 ng3	500
+數	su4	500
+斂	liam1	500
+斟嘴	zim1 zoi4	500
+斣	deu4	500
+斤半	gin1 ban4	500
+斧頭	bu3 teu2	500
+新	sin1	500
+新娘	sin1 ngiong2	500
+新娘公	sin1 long2 gung1	500
+斷暗	ton1 am4	500
+旋	con4	500
+日子	ngit5 zu1	500
+日日	ngit5 ngit5	500
+日辰頭	ngit5 sin2 teu2	500
+日頭	ngit5 teu2	500
+早下	zau3 ha4	500
+旱地	hon1 ti4	500
+旺	vong4	500
+星	sin1	500
+映	yang3	500
+春	cun1	500
+春袋	cun1 toi4	500
+時途	si2 tu2	500
+晏晝	an4 ziu4	500
+晚辰頭	man1 sin2 teu2	500
+晝	ziu4	500
+晨朝日	sin1 zau1 ngit5	500
+晴水	ciang2 sui3	500
+晼隻	von2 zak5	500
+晾燥	lang2 zau1	500
+暈車	vin2 ca1	500
+暖	lon1	500
+暖壼	lon1 fu2	500
+暗	am4	500
+暫暋日	cam4 min1 ngit5	500
+暴牙	pau4 nga2	500
+暴芽	bau4 nga2	500
+曉	hiau3	500
+曉功夫	hiau3 gung1 fu1	500
+曬一般	sai4 yit5 ban1	500
+書	su1	500
+書友草	su1 yiu1 cau3	500
+書桌	su1 zok5	500
+最	zui4	500
+月光	ngiet6 gong1	500
+月尾	ngiet6 mui1	500
+月頭	ngiet6 teu2	500
+月鴿	ngiet6 gap5	500
+有人家	yiu1 ngin2 ga1	500
+有冇去佢屋家	yiu1 mau2 hi4 gia1 vuk5 ka1	500
+有性	yiu1 siang4	500
+有滴仔	yiu1 dit6 zai3	500
+有隻人	yiu1 zak5 ngin2	500
+服	fuk6	500
+朝	zau1	500
+朝晨頭	zau1 sin2 teu2	500
+木匠	muk5 siong4	500
+木絲	muk5 si1	500
+木頭	muk5 teu2	500
+本人	bun3 ngin2	500
+本錢	bun3 cien2	500
+朵	do3	500
+杉樹	cam4 su4	500
+李仔	li3 zai3	500
+杏	hen4	500
+杏花	hen4 fa1	500
+村	cun1	500
+杜鵑花	tu4 gien1 fa1	500
+杯	bui1	500
+東西	dung1 si1	500
+松光仁	cung2 gong1 yin2	500
+松樹	cung2 su4	500
+松毛	cung2 mau1	500
+松雞角	cung2 gai1 gok5	500
+枕頭	zim3 teu2	500
+架	ga4	500
+柄	biang4	500
+柏樹	pak5 su4	500
+柑仔	gam1 zai3	500
+柱	cu1	500
+柱躉	cu1 dun3	500
+柳樹	liu3 su4	500
+柴	cai2	500
+柴刀	cai2 dau1	500
+核	fut6	500
+核卵	hak6 lon3	500
+桁	hang2	500
+桂花	gui4 fa1	500
+桃仔	tau2 zai3	500
+桃花	tau2 fa1	500
+桌帕	zok5 pa4	500
+桌頭	zok5 teu2	500
+桍	ka3	500
+桑仔	song1 zai3	500
+桑仔樹	song1 zai3 su4	500
+梅仔	moi2 zai3	500
+梅子罌	moi2 zu1 ang1	500
+梅花	moi2 fa1	500
+梗	gang3	500
+條	tiau2	500
+條凳	ban3 den4	500
+梟	hiau1	500
+梧桐樹	ng2 tung2 su4	500
+梨	li2	500
+梳仔	so1 zai3	500
+梳頭	so1 teu2	500
+棉花	mien2 fa1	500
+棕櫚樹	zung1 li1 su4	500
+棟心	dung4 sim1	500
+棵	po1	500
+棺材	gon1 coi2	500
+棺材佬	gon1 coi2 lau3	500
+楓樹	fung1 su4	500
+楔仔	siap5 zai3	500
+榔箕	long1 gi1	500
+榕樹	yung2 su4	500
+槐樹	fai2 su4	500
+樋	dung3	500
+樑	liong2	500
+樓梯	leu2 toi1	500
+樟樹	zong1 su4	500
+樣邊做	yong4 bien1 zo4	500
+樣邊搞	yong4 bien1 gau3	500
+樹尾	su4 mui1	500
+樹桍	su4 ka1	500
+樹膠	su4 gau1	500
+樹葉	su4 yap6	500
+樹頭	su4 teu2	500
+樽	zun1	500
+橋	kiau2	500
+橘仔	git5 zai3	500
+橙仔	zang2 zai3	500
+橡筋	siong4 gin1	500
+橫	vang4	500
+櫃	kui4	500
+櫃台	kui4 toi2	500
+櫥	cu2	500
+櫻桃	yin1 tau2	500
+櫼	ziam1	500
+欄河	lan2 ho2	500
+欖	lam3	500
+欠賬	kiam4 zong4	500
+歕	pun2	500
+正	zang4	500
+正先	cang4 sien1	500
+正年初一	cang1 ngiet6 co1 yit5	500
+正廳	zin4 tiang1	500
+正講	zang2 gong3	500
+歪	vai1	500
+死咯	si3 lo3	500
+每隻人	mui1 zak5 ngin2	500
+毒	teu4	500
+比	bi3	500
+毛筆	mau1 bit5	500
+毛辮仔	mau1 bien1 zai3	500
+毫	hau2	500
+氈	zien1	500
+水	sui3	500
+水毛	sui3 mau1	500
+水煙筒	sui3 yen1 tung2	500
+水牛	sui3 ngiu2	500
+水田	sui3 tien2	500
+水筆	sui3 bit5	500
+水缸	sui3 gong1	500
+水腳	sui3 giok5	500
+水車	sui3 ca1	500
+水鞋	sui3 hai2	500
+汽車	hi4 ca1	500
+沒生養過的狗牸	mat6 sang1 yong1 go4 dit5 geu3 ci4	500
+沒生養過的貓牸	mat6 sang1 yong1 go4 dit5 miau4 ci4	500
+沕水	mi4 sui3	500
+沖	cung1	500
+沖涼	cung1 liong2	500
+沙公	sa1 gung1	500
+沙壩	sa1 ba4	500
+河	ho2	500
+河壆	ho2 bok5	500
+河邊	ho2 bien1	500
+沸嗨	bui4 hoi1	500
+沸水	bui4 sui3	500
+沸水壼	bui4 sui3 fu2	500
+沸淥淥	bui4 luk6 luk6	500
+油漆	yiu2 cit5	500
+油茶樹	yiu2 ca2 su4	500
+油麻	yiu2 ma2	500
+沿	yen2	500
+泌	bi4	500
+泛穀	pang4 guk5	500
+波	bo1	500
+泥	lai2	500
+泥塵	lai2 cin2	500
+泥水匠	lai2 sui3 siong4	500
+泥磚	lai2 zon1	500
+洗碗	se3 von3	500
+洗米	se3 mi1	500
+洗米水	se3 mi3 sui3	500
+洗衫	se3 sam1	500
+洗面	se3 mien4	500
+派	pai4	500
+浮	feu2	500
+海	hoi3	500
+浸	kim4	500
+浸大水	zim4 tai4 sui3	500
+浸死	zim4 si3	500
+涼	liong2	500
+涼爽	liong2 song3	500
+涿	duk5	500
+涿水	duk5 sui3	500
+淋菜	lim2 coi2	500
+淘	tau2	500
+淘飯	tau2 fan4	500
+淡	tam1	500
+淥	luk6	500
+淥順	luk5 sun4	500
+淨	ciang4	500
+添忘	tiam1 mong4	500
+減	gam3	500
+渠自家	gi2 ci2 ga1	500
+渴	hot5	500
+游水	yiu2 sui3	500
+渾	vun2	500
+湊	ceu4	500
+湓	pun2	500
+湖	fu2	500
+湖氹	fu2 tem2	500
+湖蜞	fu2 ki2	500
+湖鰍	fu2 ciu1	500
+溜	liu1	500
+溜苔	liu1 toi2	500
+溪錢	kai1 cien2	500
+滑	vat6	500
+滑凸凸	vat6 tut6 tut6	500
+滑律律	vat6 lut6 lut6	500
+滿	mun1	500
+滿仔	man1 zai3	500
+滿卒卒	man1 zut5 zut5	500
+滿女	man1 ng3	500
+漏水	leu4 sui3	500
+漚漏	eu4 leu4	500
+漚肥	eu4 pui2	500
+漬	zi4	500
+漿糊	ziong1 fu2	500
+潺菜	can2 coi4	500
+澀	giap5	500
+濁	cuk6	500
+濁	gang3	500
+濁鼻	guk6 pi4	500
+濃	ngiung2	500
+濕	sip5	500
+濕荅荅	sip5 dap5 dap5	500
+瀨尿	lai2 ngiau4	500
+火柴	fo3 cai2	500
+火桶	fo3 tung3	500
+火水	fo3 sui3	500
+火灰	fo3 foi1	500
+火炭	fo3 tan4	500
+火焰蟲	fo3 yam4 cung2	500
+火燒屋	fo3 sau1 vuk5	500
+火燭	fo3 zuk5	500
+火爐	fo3 lu2	500
+火船	fo3 son2	500
+火蛇囁	fo3 sa2 ngiap5	500
+灶下	zau4 ha1	500
+炆	mun1	500
+炕	kong4	500
+炙冬天	zak5 dung1 tien1	500
+炙火	zak5 fo3	500
+烏	vu1	500
+烏	vu2	500
+烏布	vu1 bu4	500
+烏桕樹	vu1 kiu1 su4	500
+烏燈	vu1 den1	500
+烏矂矂	vu1 sau1 sau1	500
+烏蠅屎	vu1 yin2 si3	500
+烏陰天	vu1 yim1 tien1	500
+烏黷黷	vu1 du4 du4	500
+烏龜	vu1 gui1	500
+烔紅	dung4 fung2	500
+焗	guk6	500
+焗過一壺	guk6 go4 yit5 fu2	500
+無人家	mau2 ngin2 ga1	500
+煙仔	yen1 zai3	500
+煙囪銜	yen1 cung1 ham2	500
+煙灰	yen1 foi1	500
+煙筒	yen1 tung2	500
+煠	sap6	500
+煤	moi2	500
+照	zau4	500
+煩	fan2	500
+煮	zu3	500
+煮菜	zu3 coi4	500
+煮飯	zu3 fan4	500
+煲涼茶	bau1 liong2 ca2	500
+煲順	bau1 sun4	500
+熏	hiun1	500
+熱	ngiet6	500
+熱氣	ngiet6 hi4	500
+熱痱	ngiet5 mui3	500
+熻	hip5	500
+燒	sau1	500
+燒水	sau1 sui3	500
+燒焓焓	sau1 hem2 hem2	500
+燒酒	sau1 ziu3	500
+燕仔	yen4 zai3	500
+燙斗	tong4 deu3	500
+燜飯	mun1 fan4	500
+燥	zau1	500
+燥麥麥	zau1 mak6 mak6	500
+燶	lung1	500
+爆仗	bau4 cong4	500
+爆牙	bau4 nga2	500
+爆眼	bau4 ngan3	500
+爆趼公	bau4 gien1 gung1	500
+爐墩	lu2 dun3	500
+爛	lan4	500
+爛嗨	lan4 hoi1	500
+爛泥	lan4 lai2	500
+爛綿綿	mien4 lan4	500
+爛臭垠	lan4 ciu4 hien1	500
+爬	pa2	500
+爬(小孩)	pa2	500
+爭	zang1	500
+爭嘀仔	cang1 dit6 zai3	500
+爺哀	ya2 oi1	500
+爺娘	ya2 ngiong2	500
+爻	ngau2	500
+爽直	song3 cit6	500
+爾嘅	ngia1 ge4	500
+爾自家	ngi2 ci2 ga1	500
+牙	nga2	500
+牙刷	nga2 sot5	500
+牙姑	nga2 gu1	500
+牙床肉	nga2 cong1 ngiuk5	500
+牙擦	nga2 cat5	500
+牙膏	nga2 gau1	500
+牙蕉	nga2 ziau1	500
+牙鷹	nga2 yin1	500
+牙黃	nga2 vong2	500
+牛仔	ngiu2 zai3	500
+牛嫲	ngiu2 ma2	500
+牛欄	ngiu2 lan2	500
+牛牯	ngiu2 gu1	500
+牛王	ngiu2 vong2	500
+牛角	ngiu2 gok5	500
+牛鳥蠅	ngiu2 vu1 yin2	500
+特別	tet6 piet6	500
+牽	kien1	500
+犁	lai2	500
+狐忽臊	fu2 fit6 sau1	500
+狐狸	fu2 li2	500
+狗	geu3	500
+狗嫲	geu3 ma2	500
+狗尾粟	geu3 mui1 suk5	500
+狗牯	geu3 gu3	500
+狗虱	geu3 sit5	500
+狹	kiap6	500
+狼	long2	500
+猜枚	zai1 moi2	500
+猴哥	heu2 go1	500
+獅子	su1 zu3	500
+玻璃	bo1 li1	500
+班	ban1	500
+班支	ban1 zi1	500
+瓦	nga1	500
+瓦析	nga3 sit5	500
+甘願	gam1 ngien4	500
+甜	tiam2	500
+甜津津	tiam2 zin1 zin1	500
+生	sang1	500
+生保人	sang1 bau3 ngin2	500
+生客	sang1 hak5	500
+生春	sang1 cun1	500
+生果	sang1 go3	500
+生理佬	sen1 li1 lau3	500
+生痛	sang3 tung4	500
+用	yung4	500
+田塍壆	tien2 sun2 bok5	500
+田螺	tien2 lo2	500
+由	yiu2	500
+畏羞	vui4 siu1	500
+畚臿	bun4 cap5	500
+番	fon1	500
+番唔到去	fan1 m1 dau3 hi4	500
+番嫁	fan1 ga4	500
+番茄	fan1 kio2	500
+番薯	fan1 su2	500
+番釘	fan1 dang1	500
+番頭嫁	fan1 teu2 ga4	500
+番鹼	fan1 gan3	500
+畫	fa4	500
+當衰	dong1 soi1	500
+疊	tiap6	500
+疑心	ngi2 sim1	500
+疤	ba1	500
+病嗨	piang4 hoi1	500
+病死嗨	piang4 si3 hoi1	500
+痎	hoi2	500
+痛	tung4	500
+痣	zi4	500
+痩蜢蜢	seu4 mang1 mang1	500
+痰筒	tam2 tung2	500
+痲瘋	ma2 fung1	500
+瘌痢頭	lat6 li2 teu2	500
+瘦	seu4	500
+瘦肉	seu4 ngiuk5	500
+瘦馬靈鉗	seu4 ma1 liang2 kiang2	500
+發冷	bot5 lang1	500
+發呆	fat5 ngoi2	500
+發呷	bot5 hap5	500
+發夢	bot5 mung4	500
+發大冷	bot5 tai4 lang1	500
+發子	bot5 zu3	500
+發死	bot5 si3	500
+發火	fat5 fo3	500
+發燒	fat5 sau1	500
+發痤仔	bot5 coi2 zai3	500
+發痧	bot5 sa1	500
+發癆嗽	bot5 lau2 seu1	500
+發癱風	bot5 tan1 fung1	500
+發雞盲	bot5 gai1 mang2	500
+發風	da3 fung1	500
+發黃腫	bot5 vong2 zung3	500
+白	pak6	500
+白果樹	pak6 go3 su4	500
+白玉蘭	pak6 ngiuk6 lan2	500
+白糖	pak6 tong2	500
+白雪雪	pak6 sut6 sut6	500
+白鴿	pak6 gap5	500
+百	bak5	500
+百一	bak5 yit5	500
+皮	pi2	500
+皮費	pi2 fui4	500
+皺	ziu4	500
+皺風鬼	zeu4 fung1 gui3	500
+盈	yin4	500
+盤點	pan2 diam3	500
+目睡毛	muk5 soi4 mau1	500
+盲公	mang2 gung1	500
+直	cit6	500
+直情	zit6 cin2	500
+直登	cit6 dang1	500
+相片	siong4 pien4	500
+看	kon4	500
+看唔倒	kon4 m1 dau3	500
+看病	gon4 piang4	500
+真係	zin1 he4	500
+眠下	min2 ha1	500
+眠床	min2 cong2	500
+眯	mi4	500
+眯一下	mi1 yit5 ha4	500
+眯眼	mi1 ngan3	500
+眼	ngan3	500
+眼汁	ngan3 zip5	500
+眼熱	ngang3 ngiet2	500
+眼珠仁	ngan3 zu1 yin2	500
+眼眉毛	ngan3 mi2 mau1	500
+眼紅	ngan3 fung2	500
+睡唔落覺	soi4 m1 lok5 gau4	500
+睡目	soi3 muk5	500
+睡落覺	soi4 lok5 gau4	500
+睡醒	soi4 siang3	500
+瞄	miau2	500
+瞪大眼	zen4 tai4 ngan3	500
+知	di1	500
+知焱	zi1 yam4	500
+短	don3	500
+短命	don3 miang4	500
+短術術嘅索嫲	don3 sut6 sut6 ge4 sot5 ma2	500
+短褲	don3 fu4	500
+矮	ai3	500
+矮瓜	ai3 ga1	500
+矮耷耷	ai3 dep6 dep6	500
+石榴	sak6 liu2	500
+石灰	sak6 foi1	500
+石牯	sak6 gu3	500
+石碌	sak6 luk5	500
+石級	sak6 gap5	500
+石螺	sak6 lo2	500
+砒	pai1	500
+研	ngan2	500
+砧板	ziem1 ban3	500
+破學	po4 hok6	500
+硝	siau1	500
+硬	ngang4	500
+硬係	ngang4 he4	500
+硬幣	ngan4 bi4	500
+硬殼蟲	ngang4 hok5 cung2	500
+硬角角	ngang4 gok6 gok6	500
+硬頸	ngang4 giang3	500
+碌仔	luk5 zai3	500
+碎	sui4	500
+碑石	bi1 sak6	500
+碓	doi4	500
+碓坎	doi4 ham3	500
+碓頭	doi4 teu2	500
+碗	von3	500
+碼頭	ma1 teu2	500
+碾子	lien4 zu3	500
+磁挾	ci2 hiap6	500
+磚	zon1	500
+磚碌	zon1 luk5	500
+磧	zak5	500
+磧年利市	zak5 ngien2 li4 si4	500
+磧死咯	zak5 si3 lo3	500
+磨	mo4	500
+磨嗦	mo4 so4	500
+礱磨	lung2 mo4	500
+禮拜	li1 bai4	500
+禮拜一	li1 bai4 yit5	500
+禮拜三	li1 bai4 sam1	500
+禮拜二	li1 bai4 ngi4	500
+禮拜五	li1 bai4 ng3	500
+禮拜六	li1 bai4 luk5	500
+禮拜四	li1 bai4 si4	500
+禾	vo2	500
+禾串	vo2 con4	500
+禾庭	vo2 tang2	500
+禾稈草	vo2 gon3 cau3	500
+禾稈頭	vo2 gon3 teu2	500
+禾蜂	vo2 fung1	500
+禾鐮	vo2 liam2	500
+禾鷝子	vo2 bit5 zai3	500
+私家車	su1 ga1 ca1	500
+秤	cin4	500
+稍為	sau3 vui2	500
+稠	leu2	500
+種菜	zung4 coi4	500
+穀	guk5	500
+穀笪	guk5 dat5	500
+積聲看去	zik6 sang1 kon4 hi4	500
+穩	vun3	500
+窗簾	cung1 liam2	500
+窗門	cung1 mun2	500
+窿空	lung2 kung1	500
+竇	deu4	500
+竹	zuk5	500
+竹席	zuk5 ciak6	500
+竹根	zuk5 gin1	500
+竹檳子	zuk5 bin1 zai3	500
+竹筍	zuk5 sun3	500
+竹篙	zuk5 gau1	500
+竹簰	zuk5 pai2	500
+竹衣	zuk5 yi1	500
+竻	let5	500
+笑	siau4	500
+笠嫲	lip5 ma2	500
+笨	pun1	500
+笨繳繳	bun4 giau3 giau3	500
+第二兜	ti4 ngi4 deu1	500
+第二定	ti4 ngi4 tang4	500
+第二日	ti4 ngi4 ngit5	500
+第尾	ti4 mui1	500
+筆直	bit5 zit6	500
+筆筒套	bit5 tung2 tau4	500
+等	den3	500
+等間佢就來	den3 gan1 gi2 ciu4 loi2	500
+筍	sun3	500
+筒	tung2	500
+筲箕	sau4 gi1	500
+筷子	kai4 zu3	500
+箕	gi1	500
+算盤	son4 pan2	500
+箱	siong1	500
+篩	si1	500
+篾仔	met6 zai3	500
+簫	siau1	500
+簸箕	boi4 gi1	500
+簿仔	pu1 zai3	500
+籮	lo2	500
+米	mi3	500
+米酒	mi3 ziu3	500
+粉	fun3	500
+粗	cu1	500
+粘米	zam1 mi3	500
+粟子	lit6 zu3	500
+粥	zuk5	500
+粥飲	zuk5 yim3	500
+精	ziang1	500
+精豬肉	ziang1 zu1 ngiuk5	500
+糖丸	tong2 yen2	500
+糖仔	tong2 zai3	500
+糞箕	bun4 gi1	500
+糟嫲	zau1 ma2	500
+糠	hong1	500
+糯米	lo4 mi3	500
+糯米酒	lo4 mi3 ziu3	500
+紅	fung2	500
+紅棗	fung2 zau3	500
+紅毛泥	fung2 mau1 lai2	500
+紅淮淮	fung2 fai1 fai1	500
+紅蘿蔔	fung2 lo2 pet6	500
+紐仔	leu3 zai3	500
+紙	zi3	500
+索嫲	sok5 ma2	500
+累贅	lui4 zui4	500
+細	se4	500
+結	giet5	500
+結佬	giet5 lau3	500
+結冰	giet5 ben1	500
+結嗨冰	giet5 hoi1 ben1	500
+結實	giet5 sit6	500
+結庀	giet5 pi3	500
+結針	giet5 zim1	500
+絞米	gau3 mi3	500
+絲瓜	se1 ga1	500
+綁	bong3	500
+綁(鞋帶)	bong3	500
+綯	tau2	500
+網魚	miong3 ng2	500
+緊	gin3	500
+線	sien4	500
+緬	mien3	500
+縈	yang1	500
+縐	ziu4	500
+縱壞	zung3 fai4	500
+總都	zung3 du1	500
+繞	van1	500
+繫(皮帶)	gai1	500
+繭	gan3	500
+繼父爺	ge4 fu1 ya2	500
+缸	gong1	500
+缺嘴	kiet6 zoi4	500
+缺牙	kiet5 nga2	500
+缽頭	bat5 teu2	500
+罌哥	ang1 go1	500
+罍仔	lui3 zai3	500
+罯罯伏	am3 am3 puk5	500
+罵人	ma4 ngin2	500
+羊	yong2	500
+羊仔	yong2 zai2	500
+羊嫲	yong2 ma2	500
+羊牯	yong2 gu3	500
+美藝術	mui1 ngi4 sut6	500
+美藝術家	mui1 ngi4 sut6 ga1	500
+翹	hiau4	500
+翼	yit6	500
+老	lau3	500
+老人家	lau3 ngin2	500
+老伯頭	lau3 bak5 teu2	500
+老公	lau3 gung1	500
+老哥	lau3 go1	500
+老嗨	lau3 hoi1	500
+老嚙嚙	lau1 ngat5 ngat5	500
+老妓嫲	lau3 gi3 ma2	500
+老妹	lau3 moi4	500
+老妹婿	lau3 moi4 se4	500
+老姑婆	lau3 gu1 po2	500
+老婆	lau3 po2	500
+老婆頭	lau3 po2 teu2	500
+老實	lau3 sit6	500
+老弟	lau3 tai1	500
+老弟仔	lau3 tai1 zai3	500
+老虎	lau4 fu3	500
+老蟹	lau4 hai3	500
+老襟	lau1 kim1	500
+老鴉	lau3 a1	500
+老麥麥	lau3 mak6 mak6	500
+老鼠	lau4 cu3	500
+考試	kau3 si4	500
+耕田	gang1 tien2	500
+耕田佬	gang1 tien2 lau3	500
+耘田	vun2 tien2	500
+耙	pa2	500
+耳公	ngi3 gung1	500
+耳屎	ngi3 si3	500
+耷	dep6	500
+聊	liau4	500
+聯	lien2	500
+聲	sang1	500
+聽	tang4	500
+聽話	tang4 va4	500
+聾公	lung1 gung1	500
+肉豬	ngiuk5 zu1	500
+肋坼下	lak6 cak5 ha1	500
+肋梗仔	lak6 gang1 zai3	500
+肚搭	du3 dap5	500
+肚胈	du3 pat6	500
+肚胈屙	du3 pat6 o1	500
+肚胈餓	du3 pat6 ngo4	500
+肚臍	du3 ci2	500
+肥	pui2	500
+肥佬	pui2 lau3	500
+肥嘟嘟	pui2 dut5 dut5	500
+肩頭	gien1 teu2	500
+肭	lep5	500
+背後	boi4 heu1	500
+背心	boi4 sim1	500
+背搭	boi4 dap5	500
+背樑	boi4 long2	500
+胞衣	bau1 yi1	500
+能替【專指小孩】	len2 tai4	500
+脈菜	mak5 coi4	500
+脈門	mak5 mun2	500
+脧	zoi1	500
+腍柿	lem2 se2	500
+腡	lo2	500
+腥	siang1	500
+腥瘟瘟	siang1 vin1 vin1	500
+腦囟	lau3 sim4	500
+腳	giok5	500
+腳下	giok5 ha1	500
+腳下	giok5 ha4	500
+腳囊肚	giok5 lang2 du3	500
+腳板心	giok5 ban3 sim1	500
+腳爪	giok5 zau3	500
+腳盤	giok5 pan2	500
+腳眼仁	giok5 ngan3 yin2	500
+腳趾	giok5 zi3	500
+腳跡	giok5 ziak5	500
+腳踭	giok5 zang1	500
+腳魚	giok5 ng2	500
+膝頭	cit5 teu2	500
+膩	li4	500
+臉前	ngiam4 cien2	500
+臘尾指	lap6 mui1 zi3	500
+臘肉	lap6 ngiuk5	500
+臨時	lin2 si2	500
+自家	ci2 ga1	500
+自家人	ci2 ga1 ngin2	500
+臭	ciu4	500
+臭垠	ciu4 hien1	500
+臭垠臭蟹	ciu4 hien1 ciu4 hai3	500
+舀	yau3	500
+舀飯	yau3 fan4	500
+舂籬	zung1 li2	500
+舅仔	kiu1 zai3	500
+舅仔【幼】	kiu1 zai3	500
+舅娘仔【幼】	kiu1 ngiong2 zai3	500
+興	hin1	500
+興	hin3	500
+興死咯	hin3 si3 lo3	500
+舉	gi3	500
+舊年	kiu4 ngien2	500
+舊飯	kiu4 fan4	500
+舌嫲	set6 ma2	500
+舐	se1	500
+舞龍	mu3 lung2	500
+船仔	son2 zai3	500
+色	set5	500
+艾	ngioi4	500
+芥菜	gai4 coi4	500
+芫荽	yen2 sui1	500
+花	fa1	500
+花名	fa1 miang2	500
+花開嗨兩朵咯	fa1 hoi1 hoi1 liong3 do3 lo3	500
+芹菜	kiun2 coi4	500
+若	ngia1	500
+若兜自家	ngia1 diu1 ci2 ga1	500
+若自家	ngia1 ci2 ga1	500
+苦	fu3	500
+苦丟丟	fu3 diu1 diu1	500
+苦楝樹	fu3 lien4 su4	500
+茉莉花	mat6 li4 fa1	500
+茶	ca2	500
+茶壼	ca2 fu2	500
+茶居	ca2 gi1	500
+茶果	ca2 go3	500
+茶樹	ca2 su4	500
+茶盅	ca2 zung1	500
+茶葉茶	ca2 yap6 ca2	500
+草	cau3	500
+草席	zau3 ciak6	500
+草帽	cau3 mau4	500
+草織	cau3 git5	500
+荔果	lai1 go3	500
+荷蘭薯	ho2 lan1 su2	500
+荷蘭豆	ho2 lan1 teu4	500
+莧菜	han4 coi4	500
+菇	gu1	500
+菊花	kiuk5 fa1	500
+菜	coi4	500
+菜園	coi4 yen2	500
+菜心	coi4 sim1	500
+菜根	coi4 gin1	500
+菜秧	coi4 yong1	500
+菱角	lin2 gok5	500
+萊絲仔	loi2 su1 zai3	500
+落	lau4	500
+落水	lok6 sui3	500
+落雪	lok6 siet5	500
+落雹	lok6 pok6	500
+落霜	lok6 song1	500
+落霧	lok6 mu4	500
+著	zok5	500
+著數	cok6 su4	500
+著驚	cok6 giang1	500
+葡萄子	pu2 tau2 zu3	500
+葫蘆杓	pu2 lu2 sok6	500
+葷	fun1	500
+蒔田	si4 tien2	500
+蒜仔	son4 zai3	500
+蒜苗	son4 miau2	500
+蒜頭	son4 teu2	500
+蒸籠	zin1 lung2	500
+蓑衣	so1 yi1	500
+蓮花	lien2 fa1	500
+蓮藕	lien2 leu1	500
+蔗	za4	500
+蔥仔	cung1 zai3	500
+蕎頭	kiau1 teu2	500
+蕹菜	vung4 coi4	500
+薄	pok6	500
+薄翼翼	pok6 yit6 yit6	500
+薑嫲	giong1 ma2	500
+薯仔	su2 zai3	500
+薰	hiun1	500
+薸仔	piau2 zai3	500
+藥單	yok6 dan1	500
+藥粉	yok6 fun3	500
+蘆茅	lu2 mau2	500
+蘭花	lan2 fa1	500
+蘸	ziam3	500
+蘿蔔	lo2 pet6	500
+號	hau4	500
+虱嫲	sit5 ma2	500
+蚊	mun1	500
+蚊伏	mun1 puk6	500
+蚊帳	min1 zong4	500
+蚊膀	mun1 pong2	500
+蚊鼠	mun1 cu3	500
+蚌	pong1	500
+蛇哥	sa2 go1	500
+蛤蟆	ha2 ma2	500
+蜈蚣蟲	ng2 gung1 cung2	500
+蜜仔	mit6 zai3	500
+蜜糖	mit6 tong2	500
+蜢公	mang3 gung1	500
+蝕本	set5 bun3	500
+蝠婆	pit6 po2	500
+蝦公	ha2 gung1	500
+蝲蜞	la2 kia2	500
+蝴蝶	fu2 tiap5	500
+融雪	yung2 siet5	500
+蟲蚿	cung2 hien3	500
+蟻公	li1 gung1	500
+蟻子	li1 zu3	500
+蟾蜍	kiem2 su2	500
+蠟蠋	lap6 zuk5	500
+蠢	cun3	500
+蠱惑	gu3 vak6	500
+蠶蟲	cam2 cung2	500
+蠶豆	cam2 teu4	500
+行	hang2	500
+行人路	hang2 ngin2 lu4	500
+行衰運	hang2 soi1 yun4	500
+行運	hang2 yun4	500
+街	gai1	500
+街肚	gai1 du3	500
+衣車	yi1 ca1	500
+表姊妹	biau3 zi3 moi4	500
+衫袋	sam1 toi4	500
+衫袖	sam1 ciu4	500
+衫褲	sam1 fu4	500
+衫領	sam1 liang1	500
+被	pi1	500
+被肉	pi1 ngiuk5	500
+裏背	di1 boi4	500
+裙	kiun2	500
+裝唔落	zong1 m1 lok6	500
+裹	go3	500
+裹粽	go3 zung4	500
+裹粽葉	go3 zung4 yap6	500
+褥	yuk6	500
+褲	fu4	500
+褲腳	fu4 giok5	500
+褲襠	fu4 long4	500
+褲襠下	fu4 long4 ha1	500
+襖婆	au3 po2	500
+襟章	kim1 zong1	500
+襪	mat5	500
+西瓜	si1 ga1	500
+覆	puk5	500
+見功	gien4 gung1	500
+見笑	gien4 siau4	500
+親戚	cin1 cit5	500
+覺得	gok5 det5	500
+角菜	gok5 coi4	500
+角落頭	gok5 lok6 teu2	500
+計人	ge4 ngin2	500
+記掛	gi4 ga4	500
+詐	za4	500
+詐懵	za4 mung3	500
+試	ci4	500
+話	va4	500
+該下	ai4 ha4	500
+該兜	ai4 deu1	500
+該定	ai4 tang4	500
+該裏	ai4 li1	500
+該邊	ai4 bien1	500
+該隻	ai4 zak5	500
+調羹	ci2 gang1	500
+請坐	ciang3 co1	500
+講下講下就叫起來	gong3 ha4 gong3 ha4 ciu4 giau4 hi3 loi2	500
+講價	gong3 ga4	500
+講古仔	gong3 gu3 zai3	500
+講夢話	gong3 mung4 va4	500
+講大話	gong3 tai4 va4	500
+講好嗨里	gong3 hau3 hoi1 di1	500
+講本地	gong3 bun3 ti4	500
+講水古	gong3 sui3 gu1	500
+講爛嘴	gong3 lan4 zoi4	500
+講話	gong3 va4	500
+識	sit5	500
+豆腐	teu4 fu4	500
+豆腐乾	teu4 fu4 gon1	500
+豆腐花	teu4 fu4 fa1	500
+豆腐霉	teu4 fu4 moi1	500
+豆角	teu4 gok5	500
+豉油	si4 yiu2	500
+豎	su4	500
+豬	zu1	500
+豬仔	zu1 zai3	500
+豬嫲	zu1 ma2	500
+豬家	zu1 ga1	500
+豬旺	zu1 vong4	500
+豬欄	zu1 lan2	500
+豬油	zu1 yiu2	500
+豬牯	zu1 gu3	500
+豬紅	zu1 fung2	500
+豬肉	zu1 ngiuk5	500
+豬肝	zu1 gon1	500
+豬舌嫲	zu1 set6 ma2	500
+豬蹄	zu1 tai2	500
+豹	bau4	500
+豹虎哥	bau4 fu3 go1	500
+貓	miau4	500
+貓嫲	miau4 ma2	500
+貓牯	miau4 gu3	500
+貓起群	miau4 hi3 kiun2	500
+貓頭鳥	miau4 teu2 diau1	500
+貢膿	gung4 lung2	500
+貴	gui4	500
+買肉	mai1 ngiuk5	500
+賊佬	cet6 lau3	500
+賒	ca2	500
+賴伏雞嫲	lai4 pu4 gai1 ma2	500
+賴子	lai4 zu1	500
+賴死	lai4 si3	500
+賺	can4	500
+走	zeu3	500
+走水	zeu3 sui3	500
+起	hi3	500
+起火	hi3 fo3	500
+起種竹	hi3 zung4 zuk5	500
+趟	tong4	500
+跌	diet5	500
+跌倒	det5 dau3	500
+跌價	det5 ga4	500
+跒	kia4	500
+跛佬	bai1 lau3	500
+跟尾	gen4 mui1	500
+路	lu4	500
+跳	tiau4	500
+跳飛機	tiau4 fui1 gi1	500
+踞	kiu2	500
+踢	tiak5	500
+踢足球	tiak5 zuk5 kiu2	500
+踩	cai3	500
+蹄	tai2	500
+蹣	pan2	500
+蹬	diam4	500
+身	sin1	500
+身魁	sin1 foi1	500
+車桐竹	ca1 tung2 zuk5	500
+車站	ca1 zam4	500
+車飛	ca1 fui1	500
+軟	ngion1	500
+軟入入	ngion1 ngip6 ngip6	500
+輕	kiang1	500
+輕匹匹	kiang1 pit6 pit6	500
+輕鬆	kiang1 sung1	500
+輪	lin2	500
+輪流	lun2 liu2	500
+轉世	zon3 se4	500
+轉來	zon3 loi2	500
+轉去	zon3 hi4	500
+轉嗉	zon3 sio4	500
+轉屋下	zon3 vuk5 ka1	500
+轉潤	zon3 yun4	500
+轉潮	zon3 cau2	500
+轉鄉下	zon3 hiong1 ha4	500
+辣	lat6	500
+辣椒	lat6 ziau1	500
+辣過頭咯	lat6 go4 teu1 lo3	500
+辦好	pan4 hau3	500
+農村裡	lung2 cun1 li1	500
+迒眠床	hong2 min2 cong2	500
+返學	fan1 hok6	500
+迣人	ce4 ngin2	500
+追帳	zui1 zong4	500
+退茶	tui4 ca2	500
+送葬	sung4 zong4	500
+逃學	tau2 hok6	500
+逐	diak5	500
+這下	ngia3 ha4	500
+這兜	ngia3 deu1	500
+這定	ngia3 tang4	500
+這裏	ngia3 li1	500
+這邊	ngia3 bien1	500
+這隻	ngia3 zak5	500
+通書	tung1 su1	500
+連累	lien2 lui4	500
+遇到	ngi4 dau3	500
+過核	go4 fut6	500
+過滴	go4 dit6	500
+過身	go4 sin1	500
+過雲水	go4 yun2 sui3	500
+適	zak5	500
+遮	za1	500
+遲	ci2	500
+還	han2	500
+還係	han2 he4	500
+還價	van2 ga4	500
+還過	han2 go4	500
+邊唇	bien1 sun2	500
+邏人客	la2 ngin2 hak5	500
+郵局	yiu2 kiuk6	500
+郵票	yiu2 piau4	500
+都	du1	500
+鄉下人	hiong1 ha4 ngin2	500
+鄰舍	lin2 sa4	500
+配料	pui4 liau4	500
+酒凹	ziu3 ngiap5	500
+酒娘	ziu3 ngiong2	500
+酥	su1	500
+酸	son1	500
+酸丟丟	son1 diu2 diu2	500
+醃	yap5	500
+醋	cu4	500
+醜	ciu3	500
+醫生	yi1 sang1	500
+重	cung1	500
+重墜墜	cung1 dem2 dem2	500
+重陽	cung2 yong2	500
+野性	ya1 sin4	500
+金	gim1	500
+金瓜	gim1 ga1	500
+釘鋤	dang1 co2	500
+針	zim1	500
+釣檳	diau4 bin1	500
+鉆仔	zon4 zai3	500
+鉗仔	kiam2 zai3	500
+鉛筆	yen2 bit5	500
+鉤仔	geu1 zai3	500
+銀	ngiun2	500
+銀紙	ngiun2 zi3	500
+銀雞	ngiun2 gai1	500
+銅	tung2	500
+銜	ham2	500
+銹	sio4	500
+銼刀	co4 tau2	500
+鋁	li1	500
+鋪頭	pu4 teu2	500
+鋸仔	gi4 zai3	500
+錘仔	cui2 zai3	500
+錢	cien2	500
+錫	siak5	500
+鍋癆	vok6 lau1	500
+鍋鏟	vok6 can3	500
+鎖匙	so3 si2	500
+鎖頭	so3 teu2	500
+鏡	giang4	500
+鐘頭	zung1 teu2	500
+鐮刀	liam2 dau1	500
+鐵	diet5	500
+鐵釘	tiet5 dang1	500
+鐵鏟	tiet5 can3	500
+鑊掃	vok6 sau4	500
+鑊蓋	vok6 goi4	500
+鑊頭	vok6 teu2	500
+鑿仔	cok6 zai3	500
+钁鋤	giok5 co2	500
+長	cong2	500
+長日	cong2 ngit5	500
+長球	zong3 kiu2	500
+門	mun2	500
+門弄	mun2 lung4	500
+門搭	mun2 dap5	500
+門檻	mun2 kiam1	500
+門背	mun2 boi4	500
+門背落等水	mun2 boi4 lok6 den3 sui3	500
+門開嗨	mun2 hoi1 hoi1	500
+閂嗨門佢	san1 hoi1 mun2 gi2	500
+開坼	hoi1 cak5	500
+開張	hoi1 zong1	500
+開襠褲	hoi1 long4 fu4	500
+開車	hoi1 ca1	500
+開頭	hoi1 teu2	500
+間	gan1	500
+間肚	gan1 du3	500
+閹雞	yam1 gai1	500
+闊	fat5	500
+阿伢	o1 nga2	500
+阿伯	a1 bak5	500
+阿公	a1 gung1	500
+阿叔	a1 suk5	500
+阿咪	a1 mi1	500
+阿咪阿爸	a1 mi1 a1 ba1	500
+阿哥	a1 go1	500
+阿姐	a1 zia3	500
+阿娘	a1 ngiong2	500
+阿婆	a1 po2	500
+阿媽	a1 ma1	500
+阿嫂	a1 sau3	500
+阿爸	a1 ba1	500
+陂頭	bi1 teu2	500
+附近	fu4 kiun4	500
+陡梯	deu3 toi1	500
+陣	cin4	500
+陣時間	cin4 si2 gan1	500
+除嗨	cu2 hoi1	500
+陰毒	yim1 tuk6	500
+陰涼	yim1 liong2	500
+隔渣	gak5 za1	500
+隔籬	gak5 li2	500
+隔離鄰舍	gak5 li2 lin2 sa4	500
+隻	zak5	500
+雁鵝	ngan4 ngo2	500
+雙	sung1	500
+雞仔	gai1 zai3	500
+雞僆	gai1 lon4	500
+雞公	gai1 gung1	500
+雞公車	gai1 gung1 ca1	500
+雞塒【固定】	gai1 zi4	500
+雞嫲	gai1 ma2	500
+雞嫲皮	gai1 ma2 pi2	500
+雞春	gai1 cun1	500
+雞竇	gai1 deu4	500
+雞籠【可移動】	gai1 lung1	500
+雞胗	gai1 kin1	500
+雞蛋花	gai1 tan4 fa1	500
+難搞	lan2 gau3	500
+難為你	lan2 vui2 ngi2	500
+難頂	lan2 din3	500
+雪	siet5	500
+雪丸板	siet5 yen2 ban3	500
+雪條	siet5 tiau2	500
+雪白	sut6 pak6	500
+雪糕	siet5 gau2	500
+雲	yun2	500
+雲吞	vun2 tun1	500
+雷公	lui2 gung1	500
+雷公叫	lui2 gung1 giau4	500
+雹	pok6	500
+電影	tien4 yang3	500
+電油	tien4 yiu2	500
+電火	tien4 fo3	500
+電筒	tien4 tung2	500
+電船	tien4 son2	500
+霎眯	sap5 mi1	500
+霜	song1	500
+霧	mu4	500
+露水	lu4 sui3	500
+青	ciang1	500
+青菜	ciang1 coi4	500
+靚	liang4	500
+靜	cin4	500
+面	mien4	500
+面盆	mien4 pun2	500
+面衫	mien4 sam1	500
+靴	hio1	500
+鞋	hai2	500
+鞋底	hai2 dai3	500
+韭菜	giu3 coi4	500
+頂	dang3	500
+頂	din3	500
+頂指	din3 zi3	500
+頂頭風	din3 teu2 fung1	500
+頂高	dang3 gau1	500
+順	sun4	500
+頑皮	ngan2 pi2	500
+頦啱下	goi1 ngam1 ha1	500
+頭名	teu2 miang2	500
+頭牲	teu2 sang1	500
+頭皮	teu2 pi2	500
+頭那	teu2 la1	500
+頭那唔痛	teu2 la1 m1 tung4	500
+頭那暈	teu2 la1 vin2	500
+頭那毛	teu2 la1 mau1	500
+頭鱗	teu2 lin1	500
+頷	ngam3	500
+頸	giang3	500
+頸巾	giang3 gin1	500
+額門頭	ngiak5 mun2 teu2	500
+風景	fung1 gin3	500
+風栗	fung1 lit6	500
+風櫃	fung1 kui4	500
+飛機	fui1 gi1	500
+食	sit6	500
+食嗨飯正來講	sit6 hoi1 fan4 zang4 loi2 gong3	500
+食多碗添	sit6 do1 von3 tiam1	500
+食夜	sit6 ya4	500
+食晝	sit6 ziu4	500
+食朝	sit6 zau1	500
+食煙	sit6 yen1	500
+食等	sit6 den3	500
+食茶	sit6 ca2	500
+食酒	sit6 ziu3	500
+食飯	sit6 fan4	500
+飯	fan4	500
+飯勺	fan4 sok6	500
+飯店	fan4 diam4	500
+飯甑	fan4 zen4	500
+飯癩	fan4 lat5	500
+飼飯	ci3 fan4	500
+飽	bau3	500
+餃子	gau3 zu3	500
+餈粑	ci2 ba1	500
+養	yong1	500
+養唔出	yong1 m1 cut5	500
+養豬	yong1 zu1	500
+養豬仔	yong1 zu1 zai3	500
+養阿伢	yong1 o1 nga2	500
+養雞	yong1 gai1	500
+餐	con1	500
+餓死咯	ngo4 si3 lo3	500
+餓死嗨	ngo4 si3 hoi1	500
+餡	ham4	500
+餿	seu1	500
+饅頭	man2 teu2	500
+香	hiong1	500
+香噴噴	hiong1 pun4 pun4	500
+馬路	ma1 lu4	500
+馬蹄	ma1 tai2	500
+馬騮	ma1 liu1	500
+駝背佬	to2 boi4 lau3	500
+騎馬度	ki2 ma1 dok6	500
+髀罅	bi3 la4	500
+高	gau1	500
+高佬	gau1 lau3	500
+高粱粟	gau1 liong2 suk5	500
+髻	gi4	500
+鬚牯	si1 gu3	500
+鬼面殼	gui3 mien4 hok5	500
+魯	lu1	500
+鮮	sien1	500
+鮮甜	sien1 tiam2	500
+鯉嫲	li1 ma2	500
+鯰哥仔	ngiam4 go1 zai3	500
+鯽魚	zit5 ng2	500
+鱗	lin1	500
+鳥仔	diau1 zai3	500
+鳥蠅	vu1 yin2	500
+鴉鵲	a1 siak5	500
+鴨	ap5	500
+鴨嫲蹄	ap5 ma2 tai2	500
+鵝	ngo2	500
+鷂婆	yau4 po2	500
+鷯哥	liau4 go1	500
+鹹	ham2	500
+鹽	yam2	500
+鹿	luk6	500
+麥	mak6	500
+麵	mien4	500
+麵粉	mien4 fun3	500
+麻油	ma2 yiu2	500
+麻煩	ma2 fan2	500
+麻糖	ma2 tong2	500
+黃	vong2	500
+黃曱	vong2 cat6	500
+黃牛	vong2 ngiu2	500
+黃瓜	vong2 ga1	500
+黃糖	vong2 tong2	500
+黃芽白	vong2 nga2 pak6	500
+黃蜊	vong2 li1	500
+黃豆	vong2 teu4	500
+黃貢貢	vong2 gung4 gung4	500
+黃酒	vong2 ziu3	500
+黃鱔	vong2 sien1	500
+黏尾	ngiam2 mui1	500
+黏腳	ngiam2 giok5	500
+點	diam3	500
+點心	diam3 sim1	500
+點鐘	diam3 zung1	500
+點麥	diam4 mak6	500
+黷烏	tuk6 vu1	500
+鼻	pi4	500
+鼻公	pi4 gung1	500
+鼻屎	pi4 si3	500
+鼻窿	pi4 lung1	500
+鼻膿	pi4 lung2	500
+齊整	ce2 zin1	500
+齋	zai1	500
+齧仔	ngat5 zai3	500
+龍眼	lung2 ngan3	500
+𠊎自家	ngai2 ci2 ga1	500

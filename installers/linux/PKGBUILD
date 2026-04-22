@@ -1,0 +1,17 @@
+# Maintainer: rime-hakka contributors
+pkgname=rime-hakka-huiyang
+pkgver=0.1.0
+pkgrel=1
+pkgdesc="Rime schema: Hakka Huiyang dialect (Hagfa Pinyim)"
+arch=('any')
+url="https://github.com/<owner>/rime-hakka"
+license=('MIT' 'CCPL:by-sa')
+depends=('rime')
+source=("https://github.com/<owner>/rime-hakka/releases/download/v${pkgver}/hakka-huiyang-rime-v${pkgver}.zip")
+sha256sums=('SKIP')
+
+package() {
+  install -d "$pkgdir/usr/share/rime-data"
+  install -m 644 "$srcdir/hakka_huiyang.schema.yaml" "$pkgdir/usr/share/rime-data/"
+  install -m 644 "$srcdir/hakka_huiyang.dict.yaml"   "$pkgdir/usr/share/rime-data/"
+}

@@ -1,0 +1,16 @@
+Source: rime-hakka-huiyang
+Section: utils
+Priority: optional
+Maintainer: rime-hakka contributors <noreply@example.org>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.6.0
+Homepage: https://github.com/<owner>/rime-hakka
+
+Package: rime-hakka-huiyang
+Architecture: all
+Depends: ${misc:Depends}, librime1 | librime-data
+Recommends: fcitx5-rime | ibus-rime
+Description: Rime schema: Hakka Huiyang dialect (Hagfa Pinyim)
+ Input method data for typing Hakka in the Huiyang dialect using
+ the Hagfa Pinyim romanization. Toneless input is accepted by default;
+ tone digits 1-6 are optional for disambiguation.

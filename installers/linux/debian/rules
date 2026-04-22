@@ -1,0 +1,10 @@
+#!/usr/bin/make -f
+%:
+	dh $@
+
+override_dh_auto_install:
+	install -d debian/rime-hakka-huiyang/usr/share/rime-data
+	install -m 644 schemas/huiyang/hakka_huiyang.schema.yaml \
+		debian/rime-hakka-huiyang/usr/share/rime-data/
+	install -m 644 schemas/huiyang/hakka_huiyang.dict.yaml \
+		debian/rime-hakka-huiyang/usr/share/rime-data/

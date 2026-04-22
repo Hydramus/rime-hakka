@@ -1,0 +1,6 @@
+# Placeholder for OpenCC t2s conversion tables.
+# Rime's default installation ships t2s.json; we only need to add a
+# custom table here if the dialect requires special variant handling
+# (e.g. preferring 嬲 over 鬧 in certain contexts).
+#
+# Leave empty for Huiyang v0.1.0.
