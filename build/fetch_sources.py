@@ -45,13 +45,16 @@ def fetch_hkilang_words(ref: str = "main") -> bytes:
 def extract_words(csv_bytes: bytes) -> list[tuple[str, str]]:
     """Return (word, pron) pairs from hkilang hakka_words.csv.
 
-    The upstream format is: char,pron  where pron is space-separated Hagfa Pinyim.
+    The upstream format has NO header row: each line is `word,pron` where
+    pron is space-separated Hagfa Pinyim syllables.
     """
     rows: list[tuple[str, str]] = []
-    reader = csv.DictReader(io.StringIO(csv_bytes.decode("utf-8")))
+    reader = csv.reader(io.StringIO(csv_bytes.decode("utf-8")))
     for row in reader:
-        word = row.get("char", "").strip()
-        pron = row.get("pron", "").strip()
+        if len(row) < 2:
+            continue
+        word = row[0].strip()
+        pron = row[1].strip()
         if not word or not pron:
             continue
         rows.append((word, pron))

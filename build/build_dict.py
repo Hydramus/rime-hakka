@@ -10,23 +10,38 @@ Inputs:
                                         id,char,left_col,right_col,hint
                                     where right_col is the Hagfa Pinyim reading
                                     we want.
+  sources/words-<slug>.csv          Multi-character vocabulary (char,pron).
+                                    Produced by fetch_sources.py from
+                                    hkilang/TTS hakka_words.csv.
   sources/flashcards-<slug>.csv     Phrase entries. CSV columns:
                                     普通中文,客家汉字,Hakka Pronunciation,English Definition
                                     Only the 客家汉字 and Hakka Pronunciation
                                     columns are used.
   sources/phrases/<slug>/*.csv      Optional additional phrase files, same
                                     schema as flashcards CSV.
+sources/tw-hakka-word-weighting.txt Optional. Rime character frequency corpus
+                                    used to weight single characters by how
+                                    commonly they appear in written Chinese.
+                                    Source:
+                                    https://github.com/rime/rime-essay/blob/master/essay.txt
+                                    If present it is loaded automatically.
+                                    Override the path with --char-freq.
 
 Output:
   schemas/<slug>/hakka_<slug>.dict.yaml
 
-Weights:
-  - Single-character entries: 10.
-  - Phrase entries:           500 (boosted — these are the common phrases
-                                   users want to type first).
+Weights (four tiers):
+  - Curated flashcard phrases:      1000  (hand-checked, always win)
+  - Vocabulary words (1-2 chars):    500  (common short words)
+  - Vocabulary words (3+ chars):     200  (longer collocations)
+  - Single characters, high freq:     90  (top 10% by corpus frequency)
+  - Single characters, mid freq:      50  (next 40%)
+  - Single characters, low freq:      20  (next 40%)
+  - Single characters, no freq data:  10  (not in corpus / very rare)
 
 Usage:
   python build/build_dict.py huiyang
+  python build/build_dict.py huiyang --char-freq ./sources/tw-hakka-word-weighting.txt
   python build/build_dict.py huiyang --check   # validate inputs, don't write.
 """
 from __future__ import annotations
@@ -42,8 +57,22 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 SCHEMAS_DIR = REPO_ROOT / "schemas"
 SOURCES_DIR = REPO_ROOT / "sources"
 
-CHAR_WEIGHT = 10
-PHRASE_WEIGHT = 500
+CHAR_WEIGHT_HIGH = 90     # top 10% of characters by corpus frequency
+CHAR_WEIGHT_MID = 50      # next 40%
+CHAR_WEIGHT_LOW = 20      # next 40%
+CHAR_WEIGHT_DEFAULT = 10  # not in corpus / very rare
+
+FLASHCARD_WEIGHT = 1000   # curated hand-checked phrases
+WORD_SHORT_WEIGHT = 500   # 1-2 char vocabulary words
+WORD_LONG_WEIGHT = 200    # 3+ char vocabulary phrases
+
+# Kept for backwards-compat references.
+CHAR_WEIGHT = CHAR_WEIGHT_DEFAULT
+PHRASE_WEIGHT = FLASHCARD_WEIGHT
+
+# Default location for the Rime character frequency corpus inside the repo.
+# Source: https://github.com/rime/rime-essay/blob/master/essay.txt
+ESSAY_DEFAULT = SOURCES_DIR / "tw-hakka-word-weighting.txt"
 
 # Hagfa Pinyim: lowercase ascii letters + optional trailing tone digit 1-6.
 # Syllables are space-separated inside `code`.
@@ -72,12 +101,73 @@ def _normalize_code(raw: str) -> str | None:
     return code
 
 
-def _read_chars_csv(path: Path) -> list[Entry]:
+# ---------------------------------------------------------------------------
+# Character frequency corpus helpers
+# ---------------------------------------------------------------------------
+
+def _is_single_han(text: str) -> bool:
+    """True if text is exactly one CJK unified ideograph."""
+    return len(text) == 1 and "\u4e00" <= text <= "\u9fff"
+
+
+def load_char_freq(corpus_path: Path) -> dict[str, int]:
+    """Parse a Rime tw-hakka-word-weighting.txt-format file and return a char -> weight mapping.
+
+    Only single Han characters are extracted. Frequencies are bucketed into
+    three tiers using percentile cut-offs across characters with frequency > 0:
+      top 10%  -> CHAR_WEIGHT_HIGH (90)
+      next 40% -> CHAR_WEIGHT_MID  (50)
+      rest     -> CHAR_WEIGHT_LOW  (20)
+    Characters absent from the file get CHAR_WEIGHT_DEFAULT (10).
+    """
+    freqs: dict[str, int] = {}
+    with corpus_path.open(encoding="utf-8") as fh:
+        for line in fh:
+            line = line.rstrip("\n")
+            if "\t" not in line:
+                continue
+            char, _, freq_str = line.partition("\t")
+            char = char.strip()
+            if not _is_single_han(char):
+                continue
+            try:
+                freq = int(freq_str.strip())
+            except ValueError:
+                continue
+            if freq > 0:
+                freqs[char] = freq
+
+    if not freqs:
+        return {}
+
+    sorted_freqs = sorted(freqs.values(), reverse=True)
+    n = len(sorted_freqs)
+    high_cutoff = sorted_freqs[max(0, int(n * 0.10) - 1)]
+    mid_cutoff = sorted_freqs[max(0, int(n * 0.50) - 1)]
+
+    weights: dict[str, int] = {}
+    for char, freq in freqs.items():
+        if freq >= high_cutoff:
+            weights[char] = CHAR_WEIGHT_HIGH
+        elif freq >= mid_cutoff:
+            weights[char] = CHAR_WEIGHT_MID
+        else:
+            weights[char] = CHAR_WEIGHT_LOW
+    return weights
+
+
+# ---------------------------------------------------------------------------
+
+
+def _read_chars_csv(path: Path, char_freq: dict[str, int] | None = None) -> list[Entry]:
     """Read single-char readings.
 
     Supports two layouts:
       (a) minimal: char,code[,weight[,hint]]
       (b) hkilang/TTS: id,char,other,hagfa_pinyim,hint
+
+    If char_freq is provided, each character's weight is looked up from it;
+    otherwise CHAR_WEIGHT_DEFAULT is used for all characters.
     """
     entries: list[Entry] = []
     if not path.exists():
@@ -108,11 +198,16 @@ def _read_chars_csv(path: Path) -> list[Entry]:
                 code = _normalize_code(row[1])
             if not char or not code:
                 continue
-            entries.append(Entry(char, code, CHAR_WEIGHT))
+            weight = (
+                char_freq.get(char, CHAR_WEIGHT_DEFAULT)
+                if char_freq is not None
+                else CHAR_WEIGHT_DEFAULT
+            )
+            entries.append(Entry(char, code, weight))
     return entries
 
 
-def _read_phrases_csv(path: Path) -> list[Entry]:
+def _read_phrases_csv(path: Path, weight: int = FLASHCARD_WEIGHT) -> list[Entry]:
     entries: list[Entry] = []
     if not path.exists():
         return entries
@@ -123,18 +218,39 @@ def _read_phrases_csv(path: Path) -> list[Entry]:
             code = _normalize_code(row.get("Hakka Pronunciation", ""))
             if not hanzi or not code:
                 continue
-            entries.append(Entry(hanzi, code, PHRASE_WEIGHT))
+            entries.append(Entry(hanzi, code, weight))
     return entries
 
 
-def collect_entries(slug: str) -> list[Entry]:
+def _read_words_csv(path: Path) -> list[Entry]:
+    """Read words-<slug>.csv (char,pron) produced by fetch_sources.py.
+
+    Short words (1-2 chars) get WORD_SHORT_WEIGHT; longer get WORD_LONG_WEIGHT.
+    """
     entries: list[Entry] = []
-    entries.extend(_read_chars_csv(SOURCES_DIR / f"chars-{slug}.csv"))
-    entries.extend(_read_phrases_csv(SOURCES_DIR / f"flashcards-{slug}.csv"))
+    if not path.exists():
+        return entries
+    with path.open(encoding="utf-8", newline="") as fh:
+        reader = csv.DictReader(fh)
+        for row in reader:
+            word = (row.get("char") or "").strip()
+            code = _normalize_code(row.get("pron", ""))
+            if not word or not code:
+                continue
+            weight = WORD_SHORT_WEIGHT if len(word) <= 2 else WORD_LONG_WEIGHT
+            entries.append(Entry(word, code, weight))
+    return entries
+
+
+def collect_entries(slug: str, char_freq: dict[str, int] | None = None) -> list[Entry]:
+    entries: list[Entry] = []
+    entries.extend(_read_chars_csv(SOURCES_DIR / f"chars-{slug}.csv", char_freq))
+    entries.extend(_read_words_csv(SOURCES_DIR / f"words-{slug}.csv"))
+    entries.extend(_read_phrases_csv(SOURCES_DIR / f"flashcards-{slug}.csv", FLASHCARD_WEIGHT))
     phrases_dir = SOURCES_DIR / "phrases" / slug
     if phrases_dir.is_dir():
         for csv_file in sorted(phrases_dir.glob("*.csv")):
-            entries.extend(_read_phrases_csv(csv_file))
+            entries.extend(_read_phrases_csv(csv_file, FLASHCARD_WEIGHT))
     return entries
 
 
@@ -181,9 +297,31 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("slug", help="dialect slug, e.g. huiyang")
     parser.add_argument("--check", action="store_true",
                         help="validate inputs without writing the dict file")
+    parser.add_argument("--char-freq", default=None, metavar="PATH",
+                        help=f"character frequency corpus (essay.txt format). "
+                             f"Defaults to {ESSAY_DEFAULT.relative_to(REPO_ROOT)} "
+                             f"if that file exists.")
     args = parser.parse_args(argv)
 
-    entries = collect_entries(args.slug)
+    # Resolve the corpus path: explicit flag > default repo location > none.
+    corpus_path: Path | None = None
+    if args.char_freq:
+        corpus_path = Path(args.char_freq)
+        if not corpus_path.exists():
+            print(f"[error] char-freq file not found: {corpus_path}", file=sys.stderr)
+            return 1
+    elif ESSAY_DEFAULT.exists():
+        corpus_path = ESSAY_DEFAULT
+
+    char_freq: dict[str, int] | None = None
+    if corpus_path is not None:
+        char_freq = load_char_freq(corpus_path)
+        print(f"[info] loaded char frequencies for {len(char_freq)} characters "
+              f"from {corpus_path.relative_to(REPO_ROOT)}")
+    else:
+        print("[info] no character frequency corpus found; using flat char weight")
+
+    entries = collect_entries(args.slug, char_freq)
     if not entries:
         print(f"[error] no entries collected for slug={args.slug!r}", file=sys.stderr)
         return 1

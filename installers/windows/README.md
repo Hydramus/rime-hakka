@@ -3,21 +3,16 @@
 Users install [Weasel](https://rime.im/download/) first, then add our
 schema package. Two supported paths:
 
-## Option A — Inno Setup installer (recommended)
+## Option A — Manual zip install
 
-1. Grab `hakka-huiyang-rime-vX.Y.Z-setup.exe` from the GitHub Release.
-2. Double-click. The installer:
-   - Detects the Weasel user directory (`%APPDATA%\Rime`).
-   - Copies `hakka_huiyang.schema.yaml` + `hakka_huiyang.dict.yaml`.
-   - Invokes `WeaselDeployer.exe /deploy` to rebuild the prism.
-3. Right-click the Weasel tray icon → **Schema List** → tick
+1. Download `hakka-huiyang-rime-vX.Y.Z.zip` from the GitHub Release.
+2. Extract the zip — you will get:
+   - `hakka_huiyang.schema.yaml`
+   - `hakka_huiyang.dict.yaml`
+3. Copy both files into `%APPDATA%\Rime`.
+4. Right-click the Weasel tray icon → **Deploy** to rebuild the prism.
+5. Right-click the Weasel tray icon → **Schema List** → tick
    **惠陽客家話 (Hagfa Pinyim)**.
-
-Build the `.exe` locally:
-
-```powershell
-iscc installers\windows\rime-hakka.iss
-```
 
 ## Option B — plum's `rime-install.bat`
 
@@ -25,6 +20,18 @@ iscc installers\windows\rime-hakka.iss
 2. Download `hakka-huiyang-rime-vX.Y.Z.zip` from the GitHub Release.
 3. Drag the zip onto the `rime-install.bat` shortcut.
 4. The deployer auto-runs.
+
+## Option C — Inno Setup installer (developer build only)
+
+The setup `.exe` is **not published to GitHub Releases** — it must be built
+locally with [Inno Setup](https://jrsoftware.org/isinfo.php):
+
+```powershell
+iscc installers\windows\rime-hakka.iss
+```
+
+The output `dist\hakka-huiyang-rime-vX.Y.Z-setup.exe` can then be distributed
+manually.
 
 ## Troubleshooting
 

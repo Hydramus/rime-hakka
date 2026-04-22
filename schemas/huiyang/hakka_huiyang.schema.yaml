@@ -5,7 +5,7 @@
 schema:
   schema_id: hakka_huiyang
   name: 惠陽客家話
-  version: "0.1.0"
+  version: "0.1.1"
   author:
     - rime-hakka contributors
   description: |
@@ -65,7 +65,13 @@ translator:
   dictionary: hakka_huiyang
   prism: hakka_huiyang
   spelling_hints: 8
-  initial_quality: 1.1
+  # Disable auto-sentence composition — there is no Hakka language model, so
+  # sentence mode produces random ordering. Word-by-word is correct here.
+  enable_sentence: false
+  # Learn from the user's candidate selections, like MS IME does.
+  enable_user_dict: true
+  user_dict: hakka_huiyang
+  db_class: tabledb
   preedit_format:
     # Cosmetic disambiguation in the preedit line only; does not affect matching.
     - "xform/([aeiou])v/$1ü/"
@@ -76,6 +82,9 @@ simplifier:
 
 punctuator:
   import_preset: default
+
+menu:
+  page_size: 15
 
 key_binder:
   import_preset: default

@@ -27,9 +27,11 @@ Source: "..\..\schemas\huiyang\hakka_huiyang.dict.yaml";   DestDir: "{app}"; Fla
 
 [Run]
 ; Trigger Weasel to rebuild the prism after install.
-Filename: "{commonpf}\Rime\weasel-{#AppVersion}\WeaselDeployer.exe"; \
+; WeaselRoot is set in the registry by the Weasel installer.
+Filename: "{reg:HKLM\SOFTWARE\Rime\Weasel,WeaselRoot}\WeaselDeployer.exe"; \
     Parameters: "/deploy"; Flags: postinstall skipifsilent runhidden; \
-    Description: "Deploy Rime schema"; Check: FileExists(ExpandConstant('{commonpf}\Rime\weasel-{#AppVersion}\WeaselDeployer.exe'))
+    Description: "Deploy Rime schema"; \
+    Check: RegValueExists(HKLM, 'SOFTWARE\Rime\Weasel', 'WeaselRoot')
 
 [UninstallDelete]
 Type: files; Name: "{app}\hakka_huiyang.schema.yaml"
