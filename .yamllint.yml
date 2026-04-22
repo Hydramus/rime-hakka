@@ -1,0 +1,18 @@
+extends: default
+
+# Rime dict files (*.dict.yaml) have a YAML front-matter followed by
+# tab-separated entries — not pure YAML. The _template directory uses
+# {{DIALECT_SLUG}} placeholders that are not valid YAML.
+ignore: |
+  schemas/**/*.dict.yaml
+  schemas/_template/
+
+rules:
+  line-length: disable
+  document-start: disable
+  truthy: disable
+  # Rime schema convention uses spaces inside flow sequences:
+  #   states: [ 中文, 英文 ]
+  brackets:
+    min-spaces-inside: 0
+    max-spaces-inside: 1
