@@ -7,6 +7,12 @@
 # plum will copy schemas/**/*.schema.yaml and schemas/**/*.dict.yaml into
 # the user's Rime data directory, then ask the deployer to rebuild.
 
+# Required package metadata for recipe validation.
+package:
+  name: rime-hakka
+  version: "1.0.0"
+
 # Schemas to install when users pull this recipe.
-schemas:
-  - schema: hakka_huiyang
+extra:
+  schemas:
+    - schema: hakka_huiyang

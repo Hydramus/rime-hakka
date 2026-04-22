@@ -1,0 +1,10 @@
+# Normalize line endings to LF on commit
+* text=auto eol=lf
+
+# Treat generated dict files as text (they use LF)
+*.dict.yaml text eol=lf
+
+# Binary files
+*.zip binary
+*.png binary
+*.jpg binary
