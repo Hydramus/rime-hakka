@@ -1,0 +1,6 @@
+# Written by the rime-hakka installer.
+# To add other schemas, edit the schema_list below and redeploy
+# via the Weasel tray icon → Deploy.
+patch:
+  schema_list:
+    - schema: hakka_huiyang

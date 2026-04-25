@@ -4,9 +4,12 @@ fetch_sources.py — Download upstream source CSVs into sources/.
 Currently pulls:
   - hkilang/TTS chars.csv        →  sources/chars-huiyang.csv  (single-char readings)
   - hkilang/TTS hakka_words.csv  →  sources/words-huiyang.csv  (multi-char vocabulary)
+  - rime/rime-essay essay.txt    →  sources/tw-hakka-word-weighting.txt (frequency corpus)
 
 The upstream URL is pinned to `main`. For reproducible builds, set
 --commit <sha> to pin a specific revision.
+
+Use --skip-essay to skip the rime-essay download (offline / CI cache hit).
 """
 from __future__ import annotations
 
@@ -25,6 +28,11 @@ HKILANG_CHARS_URL_TEMPLATE = (
 )
 HKILANG_WORDS_URL_TEMPLATE = (
     "https://raw.githubusercontent.com/hkilang/TTS/{ref}/src/res/hakka_words.csv"
+)
+# Rime shared vocabulary / language model — provides character + word frequencies
+# for weighting the generated dictionary. LGPL-3.0.
+RIME_ESSAY_URL = (
+    "https://raw.githubusercontent.com/rime/rime-essay/master/essay.txt"
 )
 
 
@@ -61,6 +69,13 @@ def extract_words(csv_bytes: bytes) -> list[tuple[str, str]]:
     return rows
 
 
+def fetch_essay() -> bytes:
+    """Download the Rime shared essay.txt frequency corpus."""
+    print(f"[info] fetching {RIME_ESSAY_URL}")
+    with urllib.request.urlopen(RIME_ESSAY_URL, timeout=60) as resp:  # noqa: S310 (static URL)
+        return resp.read()
+
+
 def extract_huiyang_readings(csv_bytes: bytes) -> list[tuple[str, str]]:
     """Return (char, hagfa_pinyim) pairs from hkilang chars.csv.
 
@@ -84,6 +99,8 @@ def main(argv: list[str] | None = None) -> int:
                         help="git ref (branch, tag, or sha) to pull from hkilang/TTS")
     parser.add_argument("--out", default=None,
                         help="output path (default: sources/chars-hkilang.csv)")
+    parser.add_argument("--skip-essay", action="store_true",
+                        help="skip downloading the rime-essay frequency corpus")
     args = parser.parse_args(argv)
 
     SOURCES_DIR.mkdir(exist_ok=True)
@@ -125,6 +142,23 @@ def main(argv: list[str] | None = None) -> int:
         writer.writerow(["char", "pron"])
         writer.writerows(word_pairs)
     print(f"[ok] wrote {len(word_pairs)} rows to {words_out.relative_to(REPO_ROOT)}")
+
+    if args.skip_essay:
+        print("[info] --skip-essay set; skipping rime-essay download")
+        return 0
+
+    essay_out = SOURCES_DIR / "tw-hakka-word-weighting.txt"
+    essay_cache = cache_dir / "rime-essay.txt"
+    try:
+        raw_essay = fetch_essay()
+    except Exception as e:  # noqa: BLE001
+        print(f"[warn] essay fetch failed: {e}; continuing without frequency corpus",
+              file=sys.stderr)
+        return 0
+
+    essay_cache.write_bytes(raw_essay)
+    essay_out.write_bytes(raw_essay)
+    print(f"[ok] wrote {essay_out.relative_to(REPO_ROOT)} ({len(raw_essay):,} bytes)")
 
     return 0
 

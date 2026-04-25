@@ -9,7 +9,7 @@ IM integration) and GNOME (fcitx5-rime as the input method framework).
 ### Debian / Ubuntu
 
 ```bash
-wget https://github.com/<owner>/rime-hakka/releases/download/vX.Y.Z/rime-hakka-huiyang_X.Y.Z_all.deb
+wget https://github.com/Hydramus/rime-hakka/releases/download/vX.Y.Z/rime-hakka-huiyang_X.Y.Z_all.deb
 sudo dpkg -i rime-hakka-huiyang_X.Y.Z_all.deb
 ```
 
