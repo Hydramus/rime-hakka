@@ -65,6 +65,10 @@ simplifier:
   option_name: simplification
   opencc_config: t2s.json
 
+menu:
+  page_size: 9
+  select_keys: "1234567890"
+
 punctuator:
   import_preset: default
 

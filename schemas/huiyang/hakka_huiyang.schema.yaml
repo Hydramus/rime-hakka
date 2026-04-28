@@ -85,6 +85,7 @@ punctuator:
 
 menu:
   page_size: 15
+  select_keys: "1234567890"
 
 key_binder:
   import_preset: default
