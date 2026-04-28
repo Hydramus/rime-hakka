@@ -46,7 +46,7 @@ SolidCompression=yes
 WizardStyle=modern
 
 [Tasks]
-Name: setschema; Description: "Set Hakka (Huiyang) as the only active input schema (recommended)"; Flags: checked
+Name: setschema; Description: "Set Hakka (Huiyang) as the only active input schema (recommended)"
 
 [Files]
 Source: "..\..\schemas\huiyang\hakka_huiyang.schema.yaml"; DestDir: "{app}"; Flags: ignoreversion
