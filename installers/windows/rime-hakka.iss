@@ -134,11 +134,9 @@ begin
     Exit; // Already present — nothing to do.
 
   if MsgBox(
-    'Weasel (the Rime input method for Windows) is not installed.' + #13#10 +
-    #13#10 +
+    'Weasel (the Rime input method for Windows) is not installed.' + #13#10#13#10 +
     'Weasel is required to use the Hakka input schema.' + #13#10 +
-    'Click OK to download and install it now (~12 MB).' + #13#10 +
-    #13#10 +
+    'Click OK to download and install it now (~12 MB).' + #13#10#13#10 +
     'You will see a Windows security prompt — click Yes to allow the install.',
     mbConfirmation, MB_OKCANCEL) <> IDOK then
   begin
