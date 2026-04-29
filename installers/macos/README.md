@@ -9,15 +9,18 @@
 4. Click the Squirrel menubar icon → **Schema List** → tick
    **惠陽客家話 (Hagfa Pinyim)**.
 
-## Homebrew tap (planned)
+## Homebrew tap
 
 ```bash
-brew tap rime-hakka/tap
+brew tap Hydramus/tap
 brew install --cask rime-hakka-huiyang
 ```
 
-The Cask formula will live at `homebrew-tap/Casks/rime-hakka-huiyang.rb`
-in a separate repo.
+To upgrade after a new release:
+
+```bash
+brew upgrade --cask rime-hakka-huiyang
+```
 
 ## Building the .pkg
 
