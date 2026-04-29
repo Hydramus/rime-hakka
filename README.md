@@ -13,7 +13,7 @@ is consumed unchanged by every supported frontend.
 | OS / Platform | Frontend | How |
 |---|---|---|
 | Windows | [Weasel](https://github.com/rime/weasel) | Download release zip → drop onto `rime-install.bat`, or run our Inno Setup installer. See [installers/windows](installers/windows/README.md). |
-| macOS | [Squirrel](https://github.com/rime/squirrel) | Install the `.pkg` from Releases, or `brew install --cask rime-hakka` (planned tap). See [installers/macos](installers/macos/README.md). |
+| macOS | [Squirrel](https://github.com/rime/squirrel) | `brew tap Hydramus/tap && brew install --cask rime-hakka-huiyang` (installs Squirrel automatically), or download the `.pkg` from Releases. See [installers/macos](installers/macos/README.md). |
 | Linux (KDE Plasma + GNOME) | [fcitx5-rime](https://github.com/fcitx/fcitx5-rime) | `.deb` / Arch `PKGBUILD` — schema lands in `/usr/share/rime-data/`. See [installers/linux](installers/linux/README.md). |
 | Android | [Trime](https://github.com/osfans/trime) | Install Trime from F-Droid / Play, then **Schema Management → Import** on the release zip. See [installers/android](installers/android/README.md). |
 | iOS | [Hamster](https://github.com/imfuxiao/Hamster) | Install Hamster from App Store, then URL-import / Files-import the release zip. See [installers/ios](installers/ios/README.md). |
