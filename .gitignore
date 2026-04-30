@@ -30,3 +30,9 @@ sources/tw-hakka-word-weighting.txt
 *.table.bin
 *.prism.bin
 *.reverse.bin
+
+# AI
+.claude/
+.gpt_cache/
+.openai/
+.copilot/
